@@ -1,4 +1,4 @@
-![Logo ZestyTails](https://e9faff69-245e-4c35-bd3e-a039de68a971.ws-eu01.gitpod.io/mini-browser/workspace/ZestyTails/assets/images/facebook_cover_photo_2.png)
+![Logo ZestyTails](https://screenshot.click/facebook_cover_photo_2.jpg)
 
 # ZestyTails | A website dedicated to cocktail making, workshops and cocktail recipes. 
 
@@ -9,7 +9,7 @@ The purpose of this website is to create a connection with the visitor, to make 
 
 > **[ADD HERE THE RESPONSIVE PREVIEW AFTER THE WEBSITE IS BUILT < USE [THIS LINK TO CREATE IT](http://ami.responsivedesign.is/)]**
 
-**A live demo of the website can [**be found here**](Ahttps://anabear.github.io/ZestyTails/)**
+**A live demo of the website can [**be found here**](https://anabear.github.io/ZestyTails/)**
 
 ---
 
