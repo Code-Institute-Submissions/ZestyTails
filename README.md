@@ -1,10 +1,9 @@
-![Logo ZestyTails](https://screenshot.click/facebook_cover_photo_2.jpg)
 ![Image - Logo ZestyTails](https://anabear.github.io/ZestyTails/assets/images/facebook_cover_photo_2.jpg)
 
 # ZestyTails | A website dedicated to cocktail making, workshops and cocktail recipes. 
 
-This project is a website that will contain 5 pages: Home page, Tips and tricks page, Recipes page, Work with us page (that will have a contact form), and Events [Workshops timeline/tour] page.
-The purpose of this website is to create a connection with the visitor, to make people return, bring their friends and remain regular readers. The website contains useful information, such as blog posts, contact form, workshops tour, as well as a recipes gallery, and catchy design. 
+This project is a website that will contain 5 pages: Home page, Tips and Tricks page, Recipes page, Contact page (that will have a contact form), and Events page.
+The purpose of this website is to help individuals discover the world of cocktail making and book cocktail events. We want people to have the opportunity to enjoy outstanding events with a glamorous cocktail bar, which will provide unbelievable drink mix experiences to attendees. The website will also help bartending aficionados to learn more about the art of cocktail making. The website contains useful information, such as cocktail related tips, a recipes gallery, contact form, future events where people can meet the team, and testimonials. 
 
 ---
 
@@ -99,6 +98,13 @@ The purpose of this website is to create a connection with the visitor, to make 
 ### Images
 
 ### Wireframe
+Wireframes can also be [found here, in PDF format](https://drive.google.com/file/d/1igAys1CgMUpWnYoxsZhLWuAy8cNRMwDu/view?usp=sharing).
+![Wireframe - Home Page](https://anabear.github.io/ZestyTails/wireframes/Home.png)
+![Wireframe - Mobile](https://anabear.github.io/ZestyTails/wireframes/Mobile.png)
+![Wireframe - Tips&Tricks](https://anabear.github.io/ZestyTails/wireframes/Tips&Tricks.png)
+![Wireframe - Recipes](https://anabear.github.io/ZestyTails/wireframes/Recipes.png)
+![Wireframe - Contact](https://anabear.github.io/ZestyTails/wireframes/Contact.png)
+![Wireframe - Events](https://anabear.github.io/ZestyTails/wireframes/Events.png)
 
 ### Testing tools
 
