@@ -1,4 +1,4 @@
-![Image - Logo ZestyTails](https://anabear.github.io/ZestyTails/assets/images/facebook_cover_photo_2.jpg)
+![Image - Logo ZestyTails](https://anabear.github.io/ZestyTails//assets/images/facebook_cover_photo_2.png)
 
 # ZestyTails | A website dedicated to cocktail making, workshops and cocktail recipes. 
 
@@ -98,13 +98,26 @@ The purpose of this website is to help individuals discover the world of cocktai
 ### Images
 
 ### Wireframe
-Wireframes can also be [found here, in PDF format](https://drive.google.com/file/d/1igAys1CgMUpWnYoxsZhLWuAy8cNRMwDu/view?usp=sharing).
+• Wireframes can also be [**found here, in PDF format**](https://drive.google.com/file/d/1igAys1CgMUpWnYoxsZhLWuAy8cNRMwDu/view?usp=sharing).
+
+**Wireframe - Home Page**
 ![Wireframe - Home Page](https://anabear.github.io/ZestyTails/wireframes/Home.png)
+
+**Wireframe - Mobile**
 ![Wireframe - Mobile](https://anabear.github.io/ZestyTails/wireframes/Mobile.png)
+
+**Wireframe - Tips&Tricks**
 ![Wireframe - Tips&Tricks](https://anabear.github.io/ZestyTails/wireframes/Tips&Tricks.png)
+
+**Wireframe - Recipes**
 ![Wireframe - Recipes](https://anabear.github.io/ZestyTails/wireframes/Recipes.png)
+
+**Wireframe - Contact**
 ![Wireframe - Contact](https://anabear.github.io/ZestyTails/wireframes/Contact.png)
+
+**Wireframe - Events**
 ![Wireframe - Events](https://anabear.github.io/ZestyTails/wireframes/Events.png)
+
 
 ### Testing tools
 
