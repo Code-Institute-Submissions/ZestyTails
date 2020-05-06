@@ -1,8 +1,9 @@
 ![Logo ZestyTails](https://screenshot.click/facebook_cover_photo_2.jpg)
+![Image - Logo ZestyTails](https://anabear.github.io/ZestyTails/assets/images/facebook_cover_photo_2.jpg)
 
 # ZestyTails | A website dedicated to cocktail making, workshops and cocktail recipes. 
 
-This project is a website that will contain 5 pages: Home page, Work with us page ( that will have a contact form ), Blog posts (with tips and tricks), Recipes page and Workshops timeline/tour page.
+This project is a website that will contain 5 pages: Home page, Tips and tricks page, Recipes page, Work with us page (that will have a contact form), and Events [Workshops timeline/tour] page.
 The purpose of this website is to create a connection with the visitor, to make people return, bring their friends and remain regular readers. The website contains useful information, such as blog posts, contact form, workshops tour, as well as a recipes gallery, and catchy design. 
 
 ---
@@ -142,7 +143,7 @@ To deploy the code locally using gitpod, the follow steps need to be taken:
 ## Credits
 
 ### Content
-- The text for the blog and tips&tricks was copied from the [this website](https://www.cocktailicious.nl/).
+- The text for the blog and tips&tricks was copied from the websites: [[cocktailicious](https://www.cocktailicious.nl/) and also [expertbarevents](http://expertbarevents.ie/).
 - Basic bar tools for tips&tricks page were copied from the book [Bitters: A Spirited History of a Classic Cure-All, with Cocktails, Recipes, and Formulas](https://www.goodreads.com/book/show/11093116-bitters).
 - Logo was designed with the help of the website [Hatchful](https://hatchful.shopify.com/), logo maker. 
 
@@ -160,5 +161,6 @@ To deploy the code locally using gitpod, the follow steps need to be taken:
 
 ### Acknowledgements
 
-- I was inspirated for this project from this website: [cocktailicious](https://www.cocktailicious.nl/)
+- I was inspirated for this project from the websites: [cocktailicious](https://www.cocktailicious.nl/) and also [expertbarevents](http://expertbarevents.ie/).
 - I used information from [this SEO presentation](https://drive.google.com/file/d/1qx3w0rWaW8wU4suiXL99cGWmt7Vr6ipN/view) for my UX optimisation.
+- Used Monosnap to create image preview. 
