@@ -96,15 +96,15 @@ A future events page will provide information about the participation at expos a
 ### Wireframes
 
 As part of the development process I created 11 wireframes for my website (5 desktop pages, 5 mobile versions and 1 home ipad version) using the [Balsamiq tool](https://balsamiq.com/wireframes/desktop/#). These wireframes were created at the start of the projest, to help create a clear image of the website I want to build and also to be used as a planner for the project management.
-* This is the [**PDF version of the wireframes**](https://drive.google.com/file/d/1bozIMADexjemmPHJ5aN11zCDk14R9F4X/view?usp=sharing)
-* This is the [**.png mobile version of the wireframes**](https://drive.google.com/drive/folders/1tNrL2QYCS2FOnRMCfZtdLwvxFXWTAXA0?usp=sharing)
-* This is the [**.png desktop version of the wireframes**](https://drive.google.com/drive/folders/1LqQe9yraHVccuDF2AwpZwSq93C0blkdU?usp=sharing)
-* This is the [**.png ipad home page version of the wireframe**](https://drive.google.com/drive/folders/1Za4U2RYRycCt8yeCh0xQyVZxaeclWhNe?usp=sharing)
+* This is the [**PDF version of the wireframes**](https://drive.google.com/file/d/1bozIMADexjemmPHJ5aN11zCDk14R9F4X/view?usp=sharing).
+* This is the [**.png mobile version of the wireframes**](https://drive.google.com/drive/folders/1tNrL2QYCS2FOnRMCfZtdLwvxFXWTAXA0?usp=sharing).
+* This is the [**.png desktop version of the wireframes**](https://drive.google.com/drive/folders/1LqQe9yraHVccuDF2AwpZwSq93C0blkdU?usp=sharing).
+* This is the [**.png ipad home page version of the wireframe**](https://drive.google.com/drive/folders/1Za4U2RYRycCt8yeCh0xQyVZxaeclWhNe?usp=sharing).
 * These wireframes are also stored in the assets directory.
 
 ---
 
-## Features
+## Featuress
 
 ### Existing Features
 
