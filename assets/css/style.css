@@ -63,7 +63,6 @@ h1,h2,h3,h4 {
     margin: 200px 0 130px 0;
 }
 
-
 .hero-container {
     height: 80vh;
 
@@ -180,4 +179,11 @@ p.copyright a:hover {
     color: #915b0b;
 }
 
-/*----------------------------   */
+/*----------------------------  Expert Bar Events */
+
+.container-events {
+    background-color: #c0d4d9;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
