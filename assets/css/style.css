@@ -184,6 +184,17 @@ p.copyright a:hover {
 .container-events {
     background-color: #c0d4d9;
     padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+
+/*----------------------------  About Us */
+
+.container-about {
+    background-color: #c9b89f;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*----------------------------  */
