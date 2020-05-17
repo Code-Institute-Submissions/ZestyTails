@@ -140,6 +140,10 @@ footer ul {
     margin: 5px;
 }
 
+.button-footer a {
+    text-decoration: none;
+}
+
 /* Footer Social Links */
 
 .social-links li a i {
