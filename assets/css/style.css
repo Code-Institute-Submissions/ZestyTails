@@ -248,4 +248,8 @@ p.copyright a:hover {
     text-align: left;
 }
 
+.form-group strong {
+    color:#ec0d0d;
+}
+
 /*----------------------------   */
