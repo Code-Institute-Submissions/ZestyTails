@@ -201,7 +201,7 @@ p.copyright a:hover {
     padding-right: 40px;
 }
 
-/*Created smaller header for all pages, except Home page - adjusted Jumbotron*/
+/*Created smaller header for all pages, except Home page - adjusted Jumbotron on all pages*/
 
 .page-header {
     height: 50vh;
@@ -219,7 +219,7 @@ p.copyright a:hover {
     position: relative;
 }
 
-/*Created bigger header title for all pages, except Home page - adjusted Jumbotron*/
+/*Created bigger header title for all pages, except Home page - adjusted Jumbotron on all pages*/
 
 .page-header-text {
     color: #b36e07;
