@@ -35,7 +35,6 @@ This project is a website that will contain 5 pages: Home page, Tips and Tricks 
 * [Credits](#Credits)
   * [Content](#Content)
   * [Media](#Media)
-  * [Source of codes](#Source-of-codes)
   * [Acknowledgements](#Acknowledgements)
   * [Disclaimer!](#Disclaimer)
 
@@ -86,7 +85,7 @@ A future events page will provide information about the participation at expos a
 ### Design Choices
 
 * **Fonts chosen**: Lato and Open Sans because they are easy to read and have a friendly, _summery_ appearance - as described by [its authors](https://blog.prototypr.io/top-10-ui-fonts-for-web-mobile-a8488e561ce3), which go hand in hand with the _summery_ vibe of cocktails.
-* **Colours chosen**: translucent grey, blue, bronze. Blue and bronze are some of the most predominant colours in cocktail drinks and photos. Gray was chosen as a background colour for the pages where there is a heavy use of bright colours, to create a good contrast and not overwhelm the visitor of the website.
+* **Colours chosen**: translucent grey, blue, bronze/orange. Blue and bronze are some of the most predominant colours in cocktail drinks and photos. Gray was chosen as a background colour for the pages where there is a heavy use of bright colours, to create a good contrast and not overwhelm the visitor of the website.
   * Certain websites [based on the psychology of colour and conversions](https://neilpatel.com/blog/psychology-of-color-and-conversions/) mention:
     * Blue: _“The colour blue is a colour of trust, peace, order, and loyalty.”_
     * Bronze /Orange: _“orange helps to “stimulate physical activity, competition, and confidence. Amazon.com uses orange in their “limited time offer” banner. The colour suggests urgency, which makes the message more noticeable and actionable”._
@@ -138,6 +137,8 @@ As part of the development process I created 11 wireframes for my website (5 des
   * The project used HTML as this is the essential language of websites.
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
   * The project used CSS to provide the styles for the website.
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+  * The project used Javascript as part of BootStrap and also used scripts to make the burger menu responsive.
 
 ### Styling
 
@@ -202,7 +203,7 @@ For further reading and troubleshooting on cloning a repository [from GitHub](ht
 
 ### Content
 
-* The content used on the website was inspired from the websites: [cocktailicious](https://www.cocktailicious.nl/) and also [expertbarevents](http://expertbarevents.ie/).
+* The content used on the website was inspired from the websites: [cocktailicious](https://www.cocktailicious.nl/), [bartenderspiritsawards](bartenderspiritsawards.com) and also [expertbarevents](http://expertbarevents.ie/).
 * Basic bar tools for tips&tricks page were inspired from the book [Bitters: A Spirited History of a Classic Cure-All, with Cocktails, Recipes, and Formulas](https://www.goodreads.com/book/show/11093116-bitters).
 * Logo was designed with the help of the website [Hatchful](https://hatchful.shopify.com/), logo maker.
 
@@ -214,15 +215,9 @@ For further reading and troubleshooting on cloning a repository [from GitHub](ht
   * [Pixabay - User:Alexas_Fotos](https://pixabay.com/images/search/cocktail%20user:alexas_fotos/)
   * [Unsplash](https://unsplash.com/s/photos/cocktail)
 
-### Source of codes
-
-* The following codes were inspired or taken from:
-  * XX - [My previous code institute projects](https://github.com/anabear?tab=repositories)
-  * XX - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-
 ### Acknowledgements
 
-* I was inspirated for this project from the websites: [cocktailicious](https://www.cocktailicious.nl/) and also [expertbarevents](http://expertbarevents.ie/).
+* I was inspirated for this project from the websites: [cocktailicious](https://www.cocktailicious.nl/), and also [expertbarevents](http://expertbarevents.ie/).
 * I used information from [this SEO presentation](https://drive.google.com/file/d/1qx3w0rWaW8wU4suiXL99cGWmt7Vr6ipN/view) for my UX optimisation.
 
 ### Disclaimer!
