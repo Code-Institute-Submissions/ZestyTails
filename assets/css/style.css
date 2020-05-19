@@ -259,7 +259,21 @@ p.copyright a:hover {
 
 .container-bartip {
     background-color: #c0d4d9;
+    padding-top: 8px;
     padding-bottom: 30px;
     padding-left: 35px;
     padding-right: 35px;
 }
+
+/*----------------------------  Tools To Have */
+ 
+.container-tools {
+   background-color: #c9b89f;
+   padding-top: 8px;
+   padding-bottom: 30px;
+   padding-left: 35px;
+   padding-right: 35px;
+}
+
+
+/*----------------------------  Homemade Cocktails Tricks */
