@@ -8,9 +8,10 @@ body {
 
 /*---------------------------- Special paddings/margins/text */
 
-h1,h2,h3,h4 {
-    font-family: 'Open Sans', sans-serif;
-    size: 20px;
+p,h1,h2,h3,h4,h5 {
+    font-family: 'Lato', sans-serif;
+    line-height: 150%;
+    size: 16px;
 }
 
 .inline-block {
@@ -46,7 +47,7 @@ h1,h2,h3,h4 {
  
 .navbar .navbar-nav a:hover {
     font-weight: bold;
-    color: #915b0b;
+    color: #b36e07;
 }
 
 /*---------------------------- Jumbotron - inspired from my code institute projects[Whiskey Drop] */
@@ -56,15 +57,16 @@ h1,h2,h3,h4 {
 }
 
 .jumbotron .slogan {
-    color: #b36e07;
+    color: #d1caca;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 25px;
-    -webkit-text-stroke: 0.5px #472b00;
-    margin: 200px 0 130px 0;
+    font-size: 28px;
+    -webkit-text-stroke: 1.8px #0d0d27;
+    margin: 200px 0 50px 0;
 }
 
 .hero-container {
-    height: 80vh;
+    height: 65vh;
 
     background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -83,12 +85,12 @@ h1,h2,h3,h4 {
 
 .btn--cta {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 20px;
     display: inline-block;
 }
 
 .btn--abc {
-    color: #ffffff;
+    color: #252e3d;
     background-color: #d69c44;
     border-color: #d69c44;
 } 
@@ -97,9 +99,9 @@ h1,h2,h3,h4 {
 .btn--abc:active,
 .btn--abc:focus,
 .btn--abc:active:focus {
-    background-color: #aa6e14;
-    border-color: #aa6e14;
-    color: #2f3847;
+    background-color: #b36e07;
+    border-color: #b36e07;
+    color: #252e3d;
 }
 
 /*----------------------------  Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools */
@@ -110,12 +112,12 @@ footer {
     min-height: 120px;
     margin: 0;
     padding-top: 8px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .footer-title {
-    font-family: 'Lato', sans-serif;
-    size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    size: 16px;
     color: #ffffff;
     margin-top: 15px;
 }
@@ -126,7 +128,7 @@ footer {
 
 .footer-menu a:hover {
     font-weight: bold;
-    color: #915b0b;
+    color: #b36e07;
 }
 
 footer ul {
@@ -135,7 +137,7 @@ footer ul {
 }
 
 .footer-btn {
-    font-size: 12px;
+    font-size: 16px;
     padding: 5px;
     margin: 5px;
 }
@@ -149,7 +151,7 @@ footer ul {
 .social-links li a i {
     width: 22px;
     padding: 25px 0px;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 5px;
     text-align: left;
     color: #d69c44;
@@ -161,7 +163,7 @@ footer ul {
 
 .social-links li a i:hover {
     background: #2f3847;
-    color: #885507;
+    color: #b36e07;
 }
 
 /* Copyright */
@@ -169,7 +171,7 @@ footer ul {
 p.copyright {
     width: 100%;
     color: #d69c44;
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
     bottom:0;
 }
@@ -180,7 +182,7 @@ p.copyright a {
 
 p.copyright a:hover {
     font-weight: bold;
-    color: #915b0b;
+    color: #b36e07;
 }
 
 /*----------------------------  Expert Bar Events */
@@ -204,7 +206,7 @@ p.copyright a:hover {
 /*Created smaller header for all pages, except Home page - adjusted Jumbotron on all pages*/
 
 .page-header {
-    height: 50vh;
+    height: 60vh;
 
     background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -222,10 +224,11 @@ p.copyright a:hover {
 /*Created bigger header title for all pages, except Home page - adjusted Jumbotron on all pages*/
 
 .page-header-text {
-    color: #b36e07;
+    color: #d1caca;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 35px;
-    -webkit-text-stroke: 0.5px #472b00;
+    font-size: 32px;
+    -webkit-text-stroke: 1.8px #0d0d27;
     margin: 200px 0 130px 0;
 }
 
@@ -244,7 +247,7 @@ p.copyright a:hover {
 }
 
 .container-form {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
 }
 
@@ -252,4 +255,11 @@ p.copyright a:hover {
     color:#ec0d0d;
 }
 
-/*----------------------------   */
+/*----------------------------  Month Bar Suggestion */
+
+.container-bartip {
+    background-color: #c0d4d9;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}

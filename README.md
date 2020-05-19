@@ -148,6 +148,9 @@ As part of the development process I created 11 wireframes for my website (5 des
   * Used for the ‘Lato’ and ‘Open Sans’ fonts used within the website.
 * [Canva color wheel](https://www.canva.com/colors/color-wheel/)
   * Used to help decide on what shade of colours to use on the website.
+* [Colour Contrast Check](https://snook.ca/technical/colour_contrast/colour.html)
+  * The Colour Contrast Check Tool allowed me to specify a foreground and a background colour and determine if 
+  they provide enough of a contrast "when viewed by someone having color deficits or when viewed on a black and white screen".
 
 ### Framework
 
