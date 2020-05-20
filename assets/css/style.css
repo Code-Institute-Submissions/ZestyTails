@@ -171,7 +171,7 @@ footer ul {
 p.copyright {
     width: 100%;
     color: #d69c44;
-    font-size: 1em;
+    font-size: 12px;
     text-align: center;
     bottom:0;
 }
@@ -192,6 +192,8 @@ p.copyright a:hover {
     padding-bottom: 30px;
     padding-left: 40px;
     padding-right: 40px;
+    text-align: justify;
+
 }
 
 /*----------------------------  About Us */
@@ -201,6 +203,8 @@ p.copyright a:hover {
     padding-bottom: 30px;
     padding-left: 40px;
     padding-right: 40px;
+    text-align: justify;
+
 }
 
 /*Created smaller header for all pages, except Home page - adjusted Jumbotron on all pages*/
@@ -261,8 +265,10 @@ p.copyright a:hover {
     background-color: #c0d4d9;
     padding-top: 8px;
     padding-bottom: 30px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+
 }
 
 /*----------------------------  Tools To Have */
@@ -271,9 +277,21 @@ p.copyright a:hover {
    background-color: #c9b89f;
    padding-top: 8px;
    padding-bottom: 30px;
-   padding-left: 35px;
-   padding-right: 35px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.container-tools dt {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.container-tools dl {
+    background-color: #e6dccf;
+    border-radius: 15px;
+    padding: 0 15px 15px 15px;
+    text-align: justify;
 }
 
 
-/*----------------------------  Homemade Cocktails Tricks */
+/*----------------------------   */
