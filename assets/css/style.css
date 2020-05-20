@@ -283,4 +283,37 @@ p.copyright a:hover {
 }
 
 
+/*----------------------------  Cocktails to Try */
+
+.container-tryout {
+    background-color: #c9b89f;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    border-radius: 15px;
+
+}
+
+.card-pad {
+    font-size: 16px;
+    padding: 15px 25px 15px 35px;
+    background-color: #f8f8f8;
+}
+
+.card lh {
+    font-weight: bold;
+}
+
+.card h5 {
+    background-color: #e6dccf;
+    border-radius: 15px;
+    padding: 0 8px 8px 8px;
+    text-align: center;
+}
+
 /*----------------------------   */
