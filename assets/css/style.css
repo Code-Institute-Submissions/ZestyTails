@@ -8,7 +8,7 @@ body {
 
 /*---------------------------- Special paddings/margins/text */
 
-p,h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5 {
     font-family: 'Lato', sans-serif;
     line-height: 150%;
     size: 16px;
@@ -16,6 +16,15 @@ p,h1,h2,h3,h4,h5 {
 
 .inline-block {
     display: inline-block;
+}
+
+/*-- Row with equal height columns - inspired from bootstrap */
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 /*---------------------------- NavBar */
@@ -31,7 +40,6 @@ p,h1,h2,h3,h4,h5 {
 
 .navbar {
     background-color: #2f3847;
-
 }
 
 .navbar .navbar-toggler {
@@ -84,9 +92,11 @@ p,h1,h2,h3,h4,h5 {
 /*---------------------------- Buttons - inspired from my code institute projects[Whiskey Drop] */
 
 .btn--cta {
-    font-weight: bold;
     border-radius: 20px;
     display: inline-block;
+    margin: 5px;
+    width: 125px;
+    text-align: center;
 }
 
 .btn--abc {
@@ -104,6 +114,12 @@ p,h1,h2,h3,h4,h5 {
     color: #252e3d;
 }
 
+.btn--mbs {
+    border-radius: 20px;
+    margin: 5px;
+    width: auto;
+}
+
 /*----------------------------  Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools */
 
 footer {
@@ -119,7 +135,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     size: 16px;
     color: #ffffff;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .footer-menu a {
@@ -133,13 +149,13 @@ footer {
 
 footer ul {
     list-style: none;
-
 }
 
 .footer-btn {
-    font-size: 16px;
-    padding: 5px;
+    font-size: 14px;
+    padding: 3px;
     margin: 5px;
+    
 }
 
 .button-footer a {
@@ -173,7 +189,7 @@ p.copyright {
     color: #d69c44;
     font-size: 12px;
     text-align: center;
-    bottom:0;
+    bottom: 0;
 }
 
 p.copyright a {
@@ -204,7 +220,6 @@ p.copyright a:hover {
     padding-bottom: 30px;
     padding-left: 35px;
     padding-right: 35px;
-    text-align: justify;
 }
 
 /*Created smaller header for all pages, except Home page - adjusted Jumbotron on all pages*/
@@ -280,6 +295,7 @@ p.copyright a:hover {
     background-color: #e6dccf;
     border-radius: 15px;
     padding: 0 15px 15px 15px;
+    
 }
 
 
@@ -292,11 +308,11 @@ p.copyright a:hover {
 .card-img-top {
     width: 100%;
     height: auto;
+    border-radius: 15px 15px 0 0;
 }
 
 .card {
     border-radius: 15px;
-
 }
 
 .card-pad {
@@ -314,6 +330,35 @@ p.copyright a:hover {
     border-radius: 15px;
     padding: 0 8px 8px 8px;
     text-align: center;
+}
+
+/*----------------------------  Buy Ingredients */
+
+.container-shops {
+    font-size: 16px;
+    background-color: #c0d4d9;
+}
+
+.shop-row {
+    background-color: #dde4e6;
+    border-radius: 25px;
+}
+
+.shop-col {
+    padding: 15px 30px 15px 30px;
+}
+
+.shop-row p {
+    padding-top: 8px;
+}
+
+.shop-row a {
+    color: #ca8e33;
+}
+
+.shop-row a:hover {
+    font-weight: bold;
+    color: #b36e07;
 }
 
 /*----------------------------   */
