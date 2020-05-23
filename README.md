@@ -99,7 +99,7 @@ As part of the development process I created 11 wireframes for my website (5 des
 * This is the [**.png mobile version of the wireframes**](https://drive.google.com/drive/folders/1tNrL2QYCS2FOnRMCfZtdLwvxFXWTAXA0?usp=sharing).
 * This is the [**.png desktop version of the wireframes**](https://drive.google.com/drive/folders/1LqQe9yraHVccuDF2AwpZwSq93C0blkdU?usp=sharing).
 * This is the [**.png ipad home page version of the wireframe**](https://drive.google.com/drive/folders/1Za4U2RYRycCt8yeCh0xQyVZxaeclWhNe?usp=sharing).
-* These wireframes are also stored in the assets directory.
+* These wireframes are also stored in the [wireframes directory](https://github.com/anabear/ZestyTails/blob/4ccce0fa4d76c44e1c188472a322804f0bbb97f6/wireframes).
 
 ---
 
@@ -137,8 +137,6 @@ As part of the development process I created 11 wireframes for my website (5 des
   * The project used HTML as this is the essential language of websites.
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
   * The project used CSS to provide the styles for the website.
-* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
-  * The project used Javascript as part of BootStrap and also used scripts to make the burger menu responsive.
 
 ### Styling
 
