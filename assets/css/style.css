@@ -155,7 +155,6 @@ footer ul {
     font-size: 14px;
     padding: 3px;
     margin: 5px;
-    
 }
 
 .button-footer a {
@@ -368,7 +367,6 @@ p.copyright a:hover {
 /*----------------------------  Team Event Intro */
 
 .container-inevent {
-    font-size: 16px;
     background-color: #c0d4d9;
     text-align: center;
 }
@@ -394,15 +392,24 @@ p.copyright a:hover {
     margin-bottom: 10px;
 }
 
-.block-divider--orange {
-    background-color: #915b0b;
-}
-
 /*---------------------------- Future Events */
 
-.table {
+.container-futureev {
     text-align: center;
+    background-color: #c9b89f;
+}
+
+table {
     display: inline;
+    font-size: 16px;
+}
+
+.table-bordered td, .table-bordered th, .table-bordered tr {
+    border-color: #1f2530 !important;
+}
+
+.table tbody tr:hover {
+    background-color: #c0d4d9;
 }
 
 .thead-bg {
@@ -411,6 +418,23 @@ p.copyright a:hover {
 }
 
 .tbody-bg {
-    background-color: #8ca4d1;
-    color:  #000000;
+    background-color: #e6dccf;
+    color:  #2f3847;
 }
+
+/*---------------------------- Testimonials */
+
+.container-review {
+    background-color: #c0d4d9;
+}
+
+.blockquote p {
+    font-size: 16px;
+}
+
+.blockquote-footer {
+    font-size: 16px;
+    text-align: right;
+}
+
+/*---------------------------- */
