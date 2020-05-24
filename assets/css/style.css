@@ -8,17 +8,21 @@ body {
 
 /*---------------------------- Special paddings/margins/text */
 
-h1,h2,h3,h4,h5 {
+h2,h5 {
     font-family: 'Lato', sans-serif;
-    line-height: 150%;
-    size: 16px;
+    line-height: 1.1;
 }
+
+/*p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}*/
 
 .inline-block {
     display: inline-block;
 }
 
-/*-- Row with equal height columns - inspired from bootstrap */
+/*-- Row with equal height columns for cards - inspired from bootstrap */
 
 .row-eq-height {
     display: -webkit-box;
@@ -112,6 +116,7 @@ h1,h2,h3,h4,h5 {
     background-color: #b36e07;
     border-color: #b36e07;
     color: #252e3d;
+    font-weight: bold;
 }
 
 .btn--mbs {
@@ -213,7 +218,7 @@ p.copyright a:hover {
     background-color: #c9b89f;
 }
 
-/*----------------------------  Using one tag for padding and text-align for all pages sections*/
+/*----------------------------  Using one tag for padding for all pages sections*/
 
 .pad-text {
     padding-top: 8px;
@@ -268,6 +273,10 @@ p.copyright a:hover {
 .container-form {
     font-size: 16px;
     text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
 }
 
 .form-group strong {
@@ -361,4 +370,28 @@ p.copyright a:hover {
     color: #b36e07;
 }
 
-/*----------------------------   */
+/*----------------------------  Team Event Intro */
+
+.container-inevent {
+    font-size: 16px;
+    background-color: #c0d4d9;
+}
+
+.figure {
+    display: table;
+    border-top: none;
+    padding-top: 0;
+}
+
+.figure-caption {
+    display: table-caption;
+    caption-side: top;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #2f3847;
+    margin-bottom: 10px;
+}
+
+/*----------------------------  */
