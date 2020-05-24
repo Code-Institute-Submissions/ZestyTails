@@ -13,11 +13,6 @@ h2,h5 {
     line-height: 1.1;
 }
 
-/*p {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
-}*/
-
 .inline-block {
     display: inline-block;
 }
@@ -375,6 +370,11 @@ p.copyright a:hover {
 .container-inevent {
     font-size: 16px;
     background-color: #c0d4d9;
+    text-align: center;
+}
+
+.intro-sub {
+    font-size: 18px;
 }
 
 .figure {
@@ -394,4 +394,23 @@ p.copyright a:hover {
     margin-bottom: 10px;
 }
 
-/*----------------------------  */
+.block-divider--orange {
+    background-color: #915b0b;
+}
+
+/*---------------------------- Future Events */
+
+.table {
+    text-align: center;
+    display: inline;
+}
+
+.thead-bg {
+    background-color: #2f3847;
+    color: #ffffff;
+}
+
+.tbody-bg {
+    background-color: #8ca4d1;
+    color:  #000000;
+}
