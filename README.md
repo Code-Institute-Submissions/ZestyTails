@@ -89,17 +89,19 @@ website will help build the trust in the ZestyTails company.
 * As a user, I want the website to have a consistent experience.
 * As a user, I want to feel that I can come back for new content and not be presented with the same old information.
 * As a user, I want to be able to contact the team easily, if I have more questions.
+* As a user, I want to see a confirmation that my inquiry has been sent without any issues.
 * As a user, I want the website to look credible and trustworthy.
 * As a user, I want to see responsive buttons, so I know that an action was taken when I clicked a button. 
 * As a user, I want to see a navigation bar that can lead to other pages. 
-* As a user, I want to find information about the team, so I can understand how they came up with this idea and how 
-    much it means to them.
+* As a user, I want to find information about the team, so I can find out more about them.
 * As a user, I want to find social media links, that could lead me to other social media pages, where I can find more 
     information and photos about ZestyTails.
 * As a user, I want to find recipes with ingredients and steps, so I can try some new cocktails at home.
 * As a user, I want to find testimonials on the website, so I can feel that this website can be trusted and other 
     people were satisfied with their services.
 * As a user, I want to see suggestions that could help me become a better bartender at home.
+* As a user, I want to see information about what type of events ZestyTails supports.
+* As a user, I want to find information about how the team can be met in person.
 
 
 ### Design Choices
@@ -173,6 +175,7 @@ planner for the project management.
 * **Keyword search** - to allow users to find recipes based on the ingredients.
 * **Breadcrumbs** - once the website has pages more than one layer deep, breadcrumbs will make the website easier to navigate 
     for the users.
+* **Social media presence** - that could provide more information about the team, and make the website more credible.   
 
 ---
 

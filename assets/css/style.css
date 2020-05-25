@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/*---------------------------- Special paddings/margins/text */
+/*---------------------------- Special paddings/margins/text/media query */
 
 h2,h5 {
     font-family: 'Lato', sans-serif;
@@ -15,6 +15,12 @@ h2,h5 {
 
 .inline-block {
     display: inline-block;
+}
+
+@media (max-width: 320px) {              
+    .hero-container {
+    padding: 0;
+    }
 }
 
 /*-- Row with equal height columns for cards - inspired from bootstrap */
@@ -30,8 +36,8 @@ h2,h5 {
 
 .navalert-container {
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     z-index: 1;
     padding-left: 0;
     padding-right: 0;
@@ -39,6 +45,8 @@ h2,h5 {
 
 .navbar {
     background-color: #2f3847;
+    border: 0;
+    width: 100%;
 }
 
 .navbar .navbar-toggler {
@@ -69,11 +77,11 @@ h2,h5 {
     font-weight: bold;
     font-size: 28px;
     -webkit-text-stroke: 1.8px #0d0d27;
-    margin: 200px 0 50px 0;
+    margin: 100px 0 30px 0;
 }
 
 .hero-container {
-    height: 65vh;
+    height: 60vh;
 
     background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -93,7 +101,7 @@ h2,h5 {
 .btn--cta {
     border-radius: 20px;
     display: inline-block;
-    margin: 5px;
+    margin: 4px;
     width: 125px;
     text-align: center;
 }
@@ -111,7 +119,7 @@ h2,h5 {
     background-color: #b36e07;
     border-color: #b36e07;
     color: #252e3d;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .btn--mbs {
@@ -254,10 +262,10 @@ p.copyright a:hover {
 
 .container-contact {
     background-color: #c0d4d9;
-    padding-top: 35px;
+    padding-top: 30px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .contact-info {
@@ -479,4 +487,4 @@ table {
     text-decoration-color: #b36e07;
 }
 
-/*---------------------------- */
+/*---------------------------- END CODE */
