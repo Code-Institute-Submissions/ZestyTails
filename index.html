@@ -31,7 +31,7 @@
       <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="index.html"
             ><img src="assets/images/nav_logo_s.png"
-            width="220"
+            width="180"
             height="110"
             class="img-fluid"
             alt="Responsive image"/>
@@ -72,26 +72,24 @@
     <!-- /.Nav -->
     <!-- Jumbotron - inspired from my code institute projects[Whiskey Drop] -->
     <div class="container-fluid hero-container">
-      <div class="row">
-        <div class="col-12">
-          <section class="callout jumbotron text-center">
+        <section class="callout jumbotron text-center">
             <p class="slogan">
               ZestyTails Cocktail Events, For People Who Want More.
             </p>
-            <a class="btn btn-warning btn-lg btn--cta btn--abc" href="#bottom" role="button">About Us</a>
-            <a class="btn btn-warning btn-lg btn--cta btn--abc" href="contact.html" role="button">Contact</a>
-          </section>
-        </div>
-      </div>
+            <a class="btn btn-warning btn--cta btn--abc btn-lg" href="#bottom" role="button">About</a>
+            <a class="btn btn-warning btn--cta btn--abc btn-lg" href="contact.html" role="button">Contact</a>
+        </section>
     </div>
     <!-- /.Jumbotron -->
     <!-- Expert Bar Events - text referenced from expertbarevents.ie, code build with the help of w3schools and my previous code institute projects-->
     <div class="container-fluid container-events pad-text">
         <div class="row"> 
-            <div class="p-2 col-12 text-center">
-                 <h2>Expert Bar Events</h2>
+            <div class="p-2 m-auto col-12 text-center">
+                 <h2><i class="fas fa-info-circle" style="color:#915b0b;"></i>
+                 Expert Bar Events
+                 </h2>
             </div>
-            <div class="p-3 col-12 col-lg-8">
+            <div class="p-2 m-auto col-12 col-lg-8">
                  <p>If you’ve been given the task of organising a fun event you’ve 
                 surely created a list of what you would need: food, entertainment, 
                 and of course drink. Why not hire a mobile cocktail bar? You’ll be able 
@@ -103,14 +101,17 @@
                  <p>We Travel Everywhere In Europe.
                  </p>
             </div>
-            <div class="embed-responsive embed-responsive-16by9 col-12 col-lg-3">
+            <div class="embed-responsive embed-responsive-16by9 col-12 col-lg-4">
+                <!-- Copy & Pasted from YouTube -->
                 <iframe 
                     src="https://www.youtube-nocookie.com/embed/ESSMrgXHEG0?start=8" 
-                    class="embed-responsive-item"
+                    class="embed-responsive-item img-fluid p-2"
                     frameborder="0"
-                    style="border:none; overfllow:hidden;"
+                    style="overfllow:hidden;"
                     allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
+                    allowfullscreen
+                    width="250"
+                    height="250">
                     Your browser does not support this video tag.     
                 </iframe>
             </div>
@@ -120,15 +121,17 @@
     <!-- About us - photos taken from unsplash.com and text referenced from bartenderspiritsawards.com-->
     <div class="container-fluid container-about pad-text">
         <div class="row"> 
-            <div class="p-2 col-12 text-center">
-                 <h2 id="bottom">About Us</h2>
+            <div class="p-2 m-auto col-12 text-center">
+                 <h2 id="bottom"><i class="fas fa-microphone-alt" style="color:#2f3847;"></i>
+                 About Us
+                 </h2>
             </div>
             <img src="assets/images/about_us.jpg"
               width="250"
               height="250"
               class="img-fluid p-2 col-12 col-lg-4"
               alt="Responsive image">
-            <div class="p-3 col-12 col-lg-8">
+            <div class="p-2 m-auto col-12 col-lg-8">
                  <p> Our team is composed by Cyrus and Andrea. They are both known for their love of mixology and 
                  thirst for innovation and creation of craft cocktails. Cyrus is a German entrepreneur, writer, and bartender,
                  mixologist. In addition to being a leader in the classic cocktail movement, he is an expert on the history and 
@@ -144,18 +147,15 @@
     <!-- Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools -->
     <footer class="container-fluid">
       <div id="footer" class="row">
-        <!-- Footer Logo -->
-        <div class="footer-logo order-lg-first order-last col-12 col-lg-3">
-          <img
-            src="assets/images/logo_transparent.png"
-            width="150"
-            height="150"
-            class="img-fluid d-block m-auto"
-            alt="Responsive image"/>
+        <!-- Footer Back To Top -->
+        <div class="button-footer col-12 p-2">
+          <a href="#"><button type="button" class="btn btn-warning btn--abc 
+          footer-btn d-block m-auto" >Back To Top
+          </button></a>
         </div>
-        <!-- /.Footer Logo -->
+        <!-- /.Footer Back To Top -->
         <!-- Footer Menu -->
-        <div class="footer-menu inline-block col-lg-2 col-md-4">
+        <div class="footer-menu col col-12 col-md-4 col-lg-3">
           <ul>
             <li class="footer-title">MENU</li>
             <li><a href="index.html">Home</a></li>
@@ -167,39 +167,45 @@
         </div>
         <!-- /.Footer Menu -->
         <!-- Footer Social Media -->
-        <div class="col-md-4 col-lg-3 list-inline-block">
+        <div class="col col-12 col-md-4 col-lg-3">
           <ul class="social-links">
             <li class="footer-title">SOCIAL MEDIA</li>
             <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank" 
-            aria-hidden="true"><i class="fab fa-twitter-square"></i></a></li>
+            aria-hidden="true"><i class="fab fa-twitter-square"></i></a>
+            </li>
             <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank" 
-            aria-hidden="true"><i class="fab fa-instagram"></i></a></li>
+            aria-hidden="true"><i class="fab fa-instagram"></i></a>
+            </li>
             <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" 
-            aria-hidden="true"><i class="fab fa-facebook-square"></i></a></li>
+            aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
+            </li>
           </ul>
         </div>
         <!-- /.Footer Social Media -->
         <!-- Footer Contact Details -->
-        <div class="inline-block col-md-4 col-lg-3">
+        <div class="col col-12 col-md-4 col-lg-3">
           <ul>
             <li class="footer-title">CONTACT DETAILS</li>
             <li>ZestyTails</li>
-            <li>Ingrid Blurr Estate,</li>
+            <li>Ingrid Estate,</li>
             <li>Dublin, Ireland</li>
-            <li>Phone: 0869 785 462</li>
-            <li>Email: contact@zestytails.com</li>
+            <li>869 785 462</li>
+            <li>info@zestytails.com</li>
           </ul>
         </div>
         <!-- /.Footer Contact Details -->
-        <!-- Footer Back To Top -->
-        <div class="button-footer inline-block order-lg-last order-first col-12 col-lg-1">
-          <a href="#"><button type="button" class="btn btn-warning btn--abc 
-          footer-btn d-block m-auto" >Back To Top
-          </button></a>
+        <!-- Footer Logo -->
+        <div class="footer-logo col-12 col-md-4 col-lg-3">
+          <img
+            src="assets/images/logo_transparent.png"
+            width="150"
+            height="150"
+            class="img-fluid d-block m-auto"
+            alt="Responsive image"/>
         </div>
-        <!-- /.Footer Back To Top -->     
+        <!-- /.Footer Logo -->  
         <!-- Copyright -->
-        <div class="col-12 order-last">
+        <div class="col col-12">
             <p class="copyright">&copy;2020 ZestyTails & <a href="https://github.com/anabear" 
             target="_blank">Ana Butler</a>
             </p>
