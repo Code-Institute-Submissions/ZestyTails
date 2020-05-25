@@ -437,4 +437,46 @@ table {
     text-align: right;
 }
 
+/*---------------------------- Contact Form Response */
+
+.res-container {
+    height: 100vh;
+    padding: 80px 0 15px 0;
+
+    background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.response-text {
+    color: #232b38;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background-color: #ecfbffb6;
+    border-radius: 25px;
+}
+
+.res-container a {
+    color: #b36e07;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+.res-container a:hover {
+    font-weight: bold;
+    color: #b36e07;
+    text-decoration-color: #b36e07;
+}
+
 /*---------------------------- */
