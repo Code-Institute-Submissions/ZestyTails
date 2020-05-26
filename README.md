@@ -277,7 +277,7 @@ For further reading and troubleshooting on cloning a repository
     of a Classic Cure-All, with Cocktails, Recipes, and Formulas](https://www.goodreads.com/book/show/11093116-bitters).
 * The recipes from the section **Try These Cocktails At Home** on the **Recipes** page are referenced from the 
     [cocktailflow](https://cocktailflow.com/) website. 
-* * The stores mentioned on the **Where to Buy These Ingredients** section on the **Recipes** page are the following:
+* The stores mentioned on the **Where to Buy These Ingredients** section on the **Recipes** page are the following:
   * [kegworks](https://www.kegworks.com/cocktail-ingredients) 
   * [souschef](https://www.souschef.co.uk/collections/cocktail-making)
   * [barproducts](https://www.barproducts.com/bar-owners/cocktail-ingredients)

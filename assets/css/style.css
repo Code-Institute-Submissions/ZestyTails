@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/*---------------------------- Special paddings/margins/text/media query */
+/*---------------------------- Special paddings/margins/font */
 
 h2,h5 {
     font-family: 'Lato', sans-serif;
@@ -15,12 +15,6 @@ h2,h5 {
 
 .inline-block {
     display: inline-block;
-}
-
-@media (max-width: 320px) {              
-    .hero-container {
-    padding: 0;
-    }
 }
 
 /*-- Row with equal height columns for cards - inspired from bootstrap */
@@ -77,11 +71,12 @@ h2,h5 {
     font-weight: bold;
     font-size: 28px;
     -webkit-text-stroke: 1.8px #0d0d27;
-    margin: 100px 0 30px 0;
+    margin: 60px 0 10px 0;
+    padding: 60px 0 0 0;
 }
 
 .hero-container {
-    height: 60vh;
+    height: 80vh;
 
     background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -99,9 +94,9 @@ h2,h5 {
 /*---------------------------- Buttons - inspired from my code institute projects[Whiskey Drop] */
 
 .btn--cta {
-    border-radius: 20px;
+    border-radius: 25px;
     display: inline-block;
-    margin: 4px;
+    margin: 3px;
     width: 125px;
     text-align: center;
 }
@@ -134,9 +129,9 @@ footer {
     background-color: #2f3847;
     color: #d69c44;
     min-height: 120px;
-    margin: 0;
-    padding-top: 8px;
     font-size: 16px;
+    text-align: center;
+    padding: 8px 0px;
 }
 
 .footer-title {
@@ -156,13 +151,15 @@ footer {
 }
 
 footer ul {
-    list-style: none;
+    padding: 0;
+    list-style-type: none;
 }
+
+/* Back to top button */
 
 .footer-btn {
     font-size: 14px;
-    padding: 3px;
-    margin: 5px;
+    margin-bottom: 18px;
 }
 
 .button-footer a {
@@ -173,10 +170,9 @@ footer ul {
 
 .social-links li a i {
     width: 22px;
-    padding: 25px 0px;
     font-size: 32px;
     line-height: 5px;
-    text-align: left;
+    text-align: center;
     color: #d69c44;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
