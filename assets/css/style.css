@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 body {
     font-family: 'Lato', 'Open Sans', sans-serif;
@@ -6,9 +6,9 @@ body {
     padding: 0;
 }
 
-/*---------------------------- Special paddings/margins/font */
+/*---------------------------- Grouped font/layout/background color */
 
-h2,h5 {
+h2, h4, h5 {
     font-family: 'Lato', sans-serif;
     line-height: 1.1;
 }
@@ -17,6 +17,15 @@ h2,h5 {
     display: inline-block;
 }
 
+.bg-color-gray {
+    background-color: #c0d4d9;
+}
+
+.bg-color-orange {
+    background-color: #c9b89f;
+}
+
+
 /*-- Row with equal height columns for cards - inspired from bootstrap */
 
 .row-eq-height {
@@ -24,6 +33,15 @@ h2,h5 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+}
+
+/*----------------------------  Using one tag for padding for all pages sections*/
+
+.pad-text {
+    padding-left: 35px;
+    padding-bottom: 30px;
+    padding-right: 35px;
+    padding-top: 8px;
 }
 
 /*---------------------------- NavBar */
@@ -44,19 +62,19 @@ h2,h5 {
 }
 
 .navbar .navbar-toggler {
-    border: 2;
     color: #c9b89f;
     border-color: #d69c44;
+    border: 2;
 } 
 
 .navbar .navbar-nav a {
-    font-weight: normal;
     color: #d69c44;
+    font-weight: normal;
 }
  
 .navbar .navbar-nav a:hover {
-    font-weight: bold;
     color: #b36e07;
+    font-weight: bold;
 }
 
 /*---------------------------- Jumbotron - inspired from my code institute projects[Whiskey Drop] */
@@ -66,11 +84,11 @@ h2,h5 {
 }
 
 .jumbotron .slogan {
-    color: #d1caca;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
+    color: #ffffff;
     -webkit-text-stroke: 1.8px #0d0d27;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 28px;
     margin: 60px 0 10px 0;
     padding: 60px 0 0 0;
 }
@@ -78,7 +96,7 @@ h2,h5 {
 .hero-container {
     height: 80vh;
 
-    background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
+    background: url('../images/hero_image3.jpg') no-repeat bottom left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,10 +112,10 @@ h2,h5 {
 /*---------------------------- Buttons - inspired from my code institute projects[Whiskey Drop] */
 
 .btn--cta {
-    border-radius: 25px;
+    border-radius: 28px;
     display: inline-block;
     margin: 3px;
-    width: 125px;
+    width: 128px;
     text-align: center;
 }
 
@@ -111,10 +129,9 @@ h2,h5 {
 .btn--abc:active,
 .btn--abc:focus,
 .btn--abc:active:focus {
+    color: #252e3d;
     background-color: #b36e07;
     border-color: #b36e07;
-    color: #252e3d;
-    /*font-weight: bold;*/
 }
 
 .btn--mbs {
@@ -126,8 +143,8 @@ h2,h5 {
 /*----------------------------  Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools */
 
 footer {
-    background-color: #2f3847;
     color: #d69c44;
+    background-color: #2f3847;
     min-height: 120px;
     font-size: 16px;
     text-align: center;
@@ -135,9 +152,8 @@ footer {
 }
 
 .footer-title {
-    font-family: 'Open Sans', sans-serif;
-    size: 16px;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
 }
 
@@ -146,8 +162,8 @@ footer {
 }
 
 .footer-menu a:hover {
-    font-weight: bold;
     color: #b36e07;
+    font-weight: bold;
 }
 
 footer ul {
@@ -181,15 +197,15 @@ footer ul {
 }
 
 .social-links li a i:hover {
-    background: #2f3847;
     color: #b36e07;
+    background: #2f3847;
 }
 
 /* Copyright */
 
 p.copyright {
-    width: 100%;
     color: #d69c44;
+    width: 100%;
     font-size: 12px;
     text-align: center;
     bottom: 0;
@@ -200,29 +216,8 @@ p.copyright a {
 }
 
 p.copyright a:hover {
-    font-weight: bold;
     color: #b36e07;
-}
-
-/*----------------------------  Expert Bar Events */
-
-.container-events {
-    background-color: #c0d4d9;
-}
-
-/*----------------------------  About Us */
-
-.container-about {
-    background-color: #c9b89f;
-}
-
-/*----------------------------  Using one tag for padding for all pages sections*/
-
-.pad-text {
-    padding-top: 8px;
-    padding-bottom: 30px;
-    padding-left: 35px;
-    padding-right: 35px;
+    font-weight: bold;
 }
 
 /*Created smaller header for all pages, except Home page - adjusted Jumbotron on all pages*/
@@ -230,7 +225,7 @@ p.copyright a:hover {
 .page-header {
     height: 60vh;
 
-    background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
+    background: url('../images/hero_image3.jpg') no-repeat bottom left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -254,14 +249,81 @@ p.copyright a:hover {
     margin: 200px 0 130px 0;
 }
 
+/*----------------------------  Tools To Have */
+
+.desc-list dt {
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.desc-list dl {
+    background-color: #e6dccf;
+    border-radius: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+/*----------------------------  Cocktails to Try */
+
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-pad {
+    background-color: #e6dccfb0;
+    font-size: 16px;
+    padding: 15px 25px 15px 35px;
+}
+
+.card lh {
+    font-weight: bold;
+}
+
+.card h5 {
+    background-color: #e6dccf;
+    border-radius: 15px;
+    padding: 0 8px 8px 8px;
+    text-align: center;
+}
+
+/*----------------------------  Buy Ingredients */
+
+.shop-row {
+    background-color: #dde4e6;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.shop-col {
+    padding: 15px 30px 15px 30px;
+}
+
+.shop-row p {
+    padding-top: 8px;
+}
+
+.shop-row a {
+    color: #ca8e33;
+}
+
+.shop-row a:hover {
+    color: #b36e07;
+    font-weight: bold;
+}
+
 /*----------------------------  Contact Us Form */
 
-.container-contact {
-    background-color: #c0d4d9;
-    padding-top: 30px;
+.pad-container {
     padding-left: 25px;
-    padding-right: 25px;
     padding-bottom: 30px;
+    padding-right: 25px;
+    padding-top: 30px;
 }
 
 .contact-info {
@@ -281,99 +343,49 @@ p.copyright a:hover {
     color:#ec0d0d;
 }
 
-/*----------------------------  Month Bar Suggestion */
+/*---------------------------- Contact Form Response */
 
-.container-bartip {
-    background-color: #c0d4d9;
+.res-container {
+    height: 100vh;
+    padding: 80px 0 15px 0;
+
+    background: url('../images/hero_image3.jpg') no-repeat bottom left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
-/*----------------------------  Tools To Have */
- 
-.container-tools {
-   background-color: #c9b89f;
-}
-
-.container-tools dt {
-    padding-top: 20px;
-    text-transform: uppercase;
-}
-
-.container-tools dl {
-    background-color: #e6dccf;
-    border-radius: 15px;
-    padding: 0 15px 15px 15px;
-    
-}
-
-
-/*----------------------------  Cocktails to Try */
-
-.container-tryout {
-    background-color: #c9b89f;
-}
-
-.card-img-top {
-    width: 100%;
-    height: auto;
-    border-radius: 15px 15px 0 0;
-}
-
-.card {
-    border-radius: 15px;
-}
-
-.card-pad {
-    font-size: 16px;
-    padding: 15px 25px 15px 35px;
-    background-color: #f8f8f8;
-}
-
-.card lh {
-    font-weight: bold;
-}
-
-.card h5 {
-    background-color: #e6dccf;
-    border-radius: 15px;
-    padding: 0 8px 8px 8px;
+.response-text {
+    color: #232b38;
+    background-color: #ecfbffb6;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
     text-align: center;
-}
-
-/*----------------------------  Buy Ingredients */
-
-.container-shops {
-    font-size: 16px;
-    background-color: #c0d4d9;
-}
-
-.shop-row {
-    background-color: #dde4e6;
+    padding: 15px;
+    margin: 20px;
     border-radius: 25px;
 }
 
-.shop-col {
-    padding: 15px 30px 15px 30px;
-}
-
-.shop-row p {
-    padding-top: 8px;
-}
-
-.shop-row a {
-    color: #ca8e33;
-}
-
-.shop-row a:hover {
-    font-weight: bold;
+.res-container a {
     color: #b36e07;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+.res-container a:hover {
+    color: #b36e07;
+    text-decoration-color: #b36e07;
+    font-weight: bold;
 }
 
 /*----------------------------  Team Event Intro */
-
-.container-inevent {
-    background-color: #c0d4d9;
-    text-align: center;
-}
 
 .intro-sub {
     font-size: 18px;
@@ -386,22 +398,17 @@ p.copyright a:hover {
 }
 
 .figure-caption {
+    color: #2f3847;
     display: table-caption;
     caption-side: top;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     line-height: 1.6;
-    color: #2f3847;
     margin-bottom: 10px;
 }
 
 /*---------------------------- Future Events */
-
-.container-futureev {
-    text-align: center;
-    background-color: #c9b89f;
-}
 
 table {
     display: inline;
@@ -417,20 +424,16 @@ table {
 }
 
 .thead-bg {
-    background-color: #2f3847;
     color: #ffffff;
+    background-color: #2f3847;
 }
 
 .tbody-bg {
-    background-color: #e6dccf;
     color:  #2f3847;
+    background-color: #e6dccf;
 }
 
 /*---------------------------- Testimonials */
-
-.container-review {
-    background-color: #c0d4d9;
-}
 
 .blockquote p {
     font-size: 16px;
@@ -439,48 +442,6 @@ table {
 .blockquote-footer {
     font-size: 16px;
     text-align: right;
-}
-
-/*---------------------------- Contact Form Response */
-
-.res-container {
-    height: 100vh;
-    padding: 80px 0 15px 0;
-
-    background: url('../images/hero_image3.jpg') no-repeat bottom right fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-.response-text {
-    color: #232b38;
-    font-family: 'Lato', sans-serif;
-    font-size: 22px;
-    text-align: center;
-    padding: 15px;
-    margin: 20px;
-    background-color: #ecfbffb6;
-    border-radius: 25px;
-}
-
-.res-container a {
-    color: #b36e07;
-    font-weight: bold;
-    font-size: inherit;
-}
-
-.res-container a:hover {
-    font-weight: bold;
-    color: #b36e07;
-    text-decoration-color: #b36e07;
 }
 
 /*---------------------------- END CODE */
