@@ -225,7 +225,7 @@ planner for the project management.
 *   Used photo editor [Befunky](https://www.befunky.com/) to help me resive photos, while keeping a good resolution.
 *   [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
 *   [W3C Markup Validation](https://validator.w3.org/) used to validate HTML code.
-*   [HTML Formatter](https://htmlformatter.com/) used to format the HTML code.
+*   [HTML Formatter](https://htmlformatter.com/) used to format the HTML and CSS code.
 
 ---
 
@@ -233,12 +233,22 @@ planner for the project management.
 
 *   Checked the website on multiple browsers: 
 *   [W3C Markup Validation](https://validator.w3.org/):
-    *   shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
+    *   **Home** - shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
         the frameborder, the overflow property and the text.
-    *   the 'back to top' button cannot appear as a descendant of an a element. I needed to move the a link created for the 'back to top' 
-        button inside the button. Adjusted this for all pages.
+    *   **Home** - *the 'back to top' button cannot appear as a descendant of an **a** element* - I needed to move the **a** link created for the 'back to top' 
+        button inside the **button**. Adjusted this for all pages. >> This seems to not work neither for the validator, will need to find another alternative.
+        I therefore removed the **button** and styled the bootstrap **btn** within the **a** element.
+    *   **Recipes** - *Element **lh** not allowed as child of element **ul** in this context* - I used **lh** as I have seen 
+        [on their website here](https://www.w3.org/MarkUp/html3/bulletlists.html), but modified this instead to a **li** with a class "subtitle".
+    *   **Contact** - had to modify the contact form bootstrap code in order to adere to the validator's requests.    
+*   [W3C CSS validation](https://jigsaw.w3.org/css-validator/):
+    *   Had to adjust the **navbar-toggler** border unit.
+*   Based on the [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) audit I was able to improve the 
+    following:
+    *   Reduced photos size when available. Reduced about us image and the logo transparent image sizes, but did not reduce the hero image as I want it to have a 
+        clear and neat resolution on all devices.
+    *   Added a title to the **iframe** video for accessibility.
     *   
-*    
 
 
 ### Stories

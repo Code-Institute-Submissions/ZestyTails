@@ -1,383 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"/>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-      crossorigin="anonymous"/>
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/faviconz.png">
-    <!-- Title -->
-    <title>ZestyTails</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <!-- NavBar - inspired from my code institute projects[Whiskey Drop / Love Running], bootstrap, stackoverflow and w3schools -->
-      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html"
-            ><img src="assets/images/nav_logo_s.png"
-            width="170"
-            height="110"
-            class="img-fluid"
-            alt="ZestyTails logo"/>
-        </a>
-        <button
-          class="navbar-toggler navbar-dark"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tips&tricks.html">Tips & Tricks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="recipes.html">Recipes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <!-- /.Nav -->
-    <!-- Jumbotron - inspired from my code institute projects[Whiskey Drop] -->
-    <div class="container-fluid page-header">
-        <section class="jumbotron text-center">
-            <p class="page-header-text">
-              RECIPES
-            </p>
-        </section>
-    </div>
-    <!-- /.Jumbotron -->
-    <!-- Cocktails to Try - cards built with the help of bootstrap + text referenced from cocktailflow.com-->
-    <div class="container-fluid bg-color-orange pad-text">
-        <div class="row"> 
-            <div class="p-2 m-auto col col-12 text-center">
-                 <h2><i class="fas fa-cocktail" style="color:#2f3847;"></i> 
-                 Try These Cocktails At Home
-                 </h2>
-            </div>
-            <div class="row row-cols-1 row-cols-lg-4 img-fluid m-auto">
-                <div class="row-eq-height col mb-4">
-                     <div class="card h-100">
-                         <img src="assets/images/bahama-mama.jpg" class="card-img-top" alt="Bahama-Mama cocktail photo">
-                         <div class="card-body">
-                             <h5 class="card-title">Bahama Mama</h5>
-                             <ul class="card card-pad"> 
-                                <lh>INGREDIENTS:</lh>
-                                <li>60ml dark rum</li>
-                                <li>30ml white rum</li>
-                                <li>60ml orange juice</li>
-                                <li>60ml pineapple juice</li>
-                                <li>30ml coconut rum</li>
-                                <li>15ml lemon juice</li>
-                                <li>1tbsp grenadine</li>
-                                <li>1dash angostura bitter</li>
-                                <li>orange segment and red cherry</li>
-                                <li>ice cubes</li>
-                             </ul>
-                             <ol class="card card-pad">
-                                <lh>HOW TO MIX:</lh>
-                                <li>Add ice to the shaker</li>
-                                <li>Add dark rum, white rum, orange juice, pineapple juice, coconut rum, lemon juice,
-                                    grenadine and angostura to the shaker</li>
-                                <li>Shake well</li>
-                                <li>Fill up the collins glass with ice</li>
-                                <li>Strain into the glass</li>
-                                <li>Garnish with orange and cherry</li>
-                             </ol>
-                         </div>
-                     </div>
-                </div>
-                <div class="row-eq-height col mb-4">
-                     <div class="card h-100">
-                         <img src="assets/images/mai-tai.jpg" class="card-img-top" alt="Mai-Tai cocktail photo">
-                         <div class="card-body">
-                             <h5 class="card-title">Mai Tai</h5>
-                             <ul class="card card-pad"> 
-                                <lh>INGREDIENTS:</lh>
-                                <li>30ml white rum</li>
-                                <li>15ml dark rum</li>
-                                <li>45ml orange juice</li>
-                                <li>45ml pineapple juice</li>
-                                <li>5ml Creme de Almond</li>
-                                <li>red cherry and orange segment</li>
-                                <li>ice cubes</li>
-                             </ul>
-                             <ol class="card card-pad">
-                                <lh>HOW TO MIX:</lh>
-                                <li>Fill up the glass with ice</li>
-                                <li>Fill up the shaker with ice cubes</li>
-                                <li>Pour Creme de Almond, white rum, dark rum, orange and pineapple juice
-                                    into the shaker</li>
-                                <li>Shake well</li>
-                                <li>Strain into the collins glass</li>
-                                <li>Garnish with orange segment and red cherry, or mint leaves, lime wheel and
-                                     pineapple wedges</li>
-                             </ol>
-                         </div>
-                     </div>
-                </div>
-                <div class="row-eq-height col mb-4">
-                     <div class="card h-100">
-                         <img src="assets/images/blue-tahoe.jpg" class="card-img-top" alt="Blue-Tahoe cocktail photo">
-                         <div class="card-body">
-                             <h5 class="card-title">Blue Tahoe</h5>
-                             <ul class="card card-pad"> 
-                                <lh>INGREDIENTS:</lh>
-                                <li>30ml Blue Curaçao</li>
-                                <li>45ml El Tesoro Platinum Tequila</li>
-                                <li>60ml Champagne</li>
-                                <li>30ml lemon juice</li>
-                                <li>mint leaf and lemon segment</li>
-                                <li>ice cubes</li>
-                             </ul>
-                             <ol class="card card-pad">
-                                <lh>HOW TO MIX:</lh>
-                                <li>Fill up the glass with ice</li>
-                                <li>Fill up the shaker with ice cubes</li>
-                                <li>Pour the Tequila, Blue Curaçao, lemon juice, followed by the champagne last 
-                                    into the shaker</li>
-                                <li>Shake well</li>
-                                <li>Strain into the collins glass</li>
-                                <li>Garnish with mint leaf and lemon segment</li>
-                             </ol>
-                         </div>
-                     </div>
-                </div>
-                <div class="row-eq-height col mb-4">
-                     <div class="card h-100">
-                         <img src="assets/images/blue-hawaii.jpg" class="card-img-top" alt="Blue-Hawaii cocktail photo">
-                         <div class="card-body">
-                             <h5 class="card-title">Blue Hawaii</h5>
-                             <ul class="card card-pad"> 
-                                <lh>INGREDIENTS:</lh>
-                                <li>15ml white rum</li>
-                                <li>15ml Blue Curaçao</li>
-                                <li>15ml dark rum</li>
-                                <li>30ml pineapple juice</li>
-                                <li>30ml orange juice</li>
-                                <li>30ml Sweet & Sour</li>
-                                <li>red cherry and pineapple segment</li>
-                                <li>ice cubes</li>
-                             </ul>
-                             <ol class="card card-pad">
-                                <lh>HOW TO MIX:</lh>
-                                <li>Fill up the glass with ice</li>
-                                <li>Fill up the shaker with ice cubes</li>
-                                <li>Pour the dark rum, white rum, Blue Curaçao, Sweet & Sour, orange and pineapple
-                                    juice into the shaker</li>
-                                <li>Shake well</li>
-                                <li>Strain into the hurricane glass</li>
-                                <li>Garnish with red cherry and pineapple segment</li>
-                             </ol>
-                         </div>
-                     </div>
-                </div>
-            </div>
-        </div>   
-    </div>
-    <!-- /.Cocktails to Try -->
-    <!-- Buy Ingredients - build with the help of bootstrap, stores referenced have the links within the code -->
-    <div class="container-fluid bg-color-gray pad-text">
-        <div class="row"> 
-            <div class="p-2 m-auto col-12 text-center">
-                 <h2><i class="fas fa-shopping-cart" style="color:#915b0b;"></i> 
-                 Where to Buy These Ingredients
-                 </h2>
-            </div>
-            <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
-                 <div class="row shop-row p-3">
-                    <div class="col col-12 col-md-4 m-auto">
-                        <img src="assets/images/barproducts.png"
-                            class="img-fluid"
-                            alt="BarProducts logo">
-                    </div>
-                    <div class="col col-12 col-md-8 m-auto">
-                        <p><strong>BarProducts</strong> is an online store where you can find a wide variety of cocktail mixers, 
-                            bitters, syrups and cocktail garnishes. They sell bar supplies, tools and equipments. 
-                            You can also customize certain tools with your own logo. 
-                        </p>
-                        <a href="https://www.barproducts.com/bar-owners/cocktail-ingredients" target="_blank">
-                        <i class="fas fa-caret-right" style="color:#915b0b;"></i> Find out more on their website.
-                        </a>
-                    </div>
-                 </div>
-            </div>          
-            <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
-                <div class="row shop-row p-3">
-                    <div class="col col-12 col-md-4 m-auto">
-                        <img src="assets/images/souschef.png"
-                            class="img-fluid"
-                            alt="SousChef logo">
-                    </div>
-                    <div class="col col-12 col-md-8">
-                        <p><strong>SousChef</strong> brings online all the necessary tools and types of glassware that you
-                            need, to make your bar set complete. They have available different products 
-                            by brand and also based on different techniques. You can earn points by becoming
-                            a member, together with exciting perks and exclusive rewards.
-                        </p>
-                        <a href="https://www.souschef.co.uk/collections/cocktail-making" target="_blank"> 
-                        <i class="fas fa-caret-right" style="color:#915b0b;"></i> Find out more on their website.
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
-                <div class="row shop-row p-3">
-                    <div class="col col-12 col-md-4 m-auto">
-                        <img src="assets/images/kegworks.png"
-                            class="img-fluid"
-                            alt="Kegworks logo">
-                    </div>
-                    <div class="col col-12 col-md-8">
-                        <p><strong>KegWorks</strong> is a great online store for cocktail ingredients, syrups, bitters,
-                            alcoholic cocktail mixers and non-alcoholic cocktail mixers. You can find on
-                            their website plenty of useful blog posts and you can now get 10% off with
-                            your first order.
-                        </p>
-                        <a href="https://www.kegworks.com/cocktail-ingredients" target="_blank"> 
-                        <i class="fas fa-caret-right" style="color:#915b0b;"></i> Find out more on their website.
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
-                <div class="row shop-row p-3">
-                    <div class="col col-12 col-md-4 m-auto">
-                        <img src="assets/images/drinkstore.png"
-                            class="img-fluid"
-                            alt="DrinkStore logo">
-                    </div>
-                    <div class="col col-12 col-md-8">
-                        <p><strong>DrinkStore</strong> has available spirits and liqueurs, together with already prepared
-                            cocktail mixers concentrates, to make your life easier when you want to prepare one 
-                            of your favorites cocktails at home.
-                        </p>
-                        <a href="https://www.drinkstore.ie/Cocktails-Mix/1/" target="_blank"> 
-                        <i class="fas fa-caret-right" style="color:#915b0b;"></i> Find out more on their website.
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>   
-    </div>
-    <!-- /.Buy Ingredients -->
-     <!-- Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools -->
-    <footer class="container-fluid">
-        <div id="footer" class="row">
-        <!-- Footer Back To Top -->
-            <div class="button-footer col col-12">
-                <button type="button" class="btn btn-warning btn--abc 
-                footer-btn"><a href="#">Back To Top</a>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+        <!-- STYLE CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets/images/faviconz.png" />
+        <!-- Title -->
+        <title>ZestyTails</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- NavBar - inspired from my code institute projects[Whiskey Drop / Love Running], bootstrap, stackoverflow and w3schools -->
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/nav_logo_s.png" width="170" height="110" class="img-fluid" alt="ZestyTails logo" /> </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips&tricks.html">Tips & Tricks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recipes.html">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- /.Nav -->
+        <!-- Jumbotron - inspired from my code institute projects[Whiskey Drop] -->
+        <div class="container-fluid page-header">
+            <section class="jumbotron text-center">
+                <h1 class="page-header-text">
+                    RECIPES
+                </h1>
+            </section>
+        </div>
+        <!-- /.Jumbotron -->
+        <!-- Cocktails to Try - cards built with the help of bootstrap + text referenced from cocktailflow.com-->
+        <div class="container-fluid bg-color-orange pad-text">
+            <div class="row">
+                <div class="p-2 m-auto col col-12 text-center">
+                    <h2>
+                        <i class="fas fa-cocktail" style="color: #2f3847;"></i>
+                        Try These Cocktails At Home
+                    </h2>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-4 img-fluid m-auto">
+                    <div class="row-eq-height col mb-4">
+                        <div class="card h-100">
+                            <img src="assets/images/bahama-mama.jpg" class="card-img-top" alt="Bahama-Mama cocktail photo" />
+                            <div class="card-body">
+                                <h5 class="card-title">Bahama Mama</h5>
+                                <ul class="card card-pad">
+                                    <li class="subtitle">INGREDIENTS:</li>
+                                    <li>60ml dark rum</li>
+                                    <li>30ml white rum</li>
+                                    <li>60ml orange juice</li>
+                                    <li>60ml pineapple juice</li>
+                                    <li>30ml coconut rum</li>
+                                    <li>15ml lemon juice</li>
+                                    <li>1tbsp grenadine</li>
+                                    <li>1dash angostura bitter</li>
+                                    <li>orange segment and red cherry</li>
+                                    <li>ice cubes</li>
+                                </ul>
+                                <ol class="card card-pad">
+                                    <li class="subtitle">HOW TO MIX:</li>
+                                    <li>Add ice to the shaker</li>
+                                    <li>Add dark rum, white rum, orange juice, pineapple juice, coconut rum, lemon juice, grenadine and angostura to the shaker</li>
+                                    <li>Shake well</li>
+                                    <li>Fill up the collins glass with ice</li>
+                                    <li>Strain into the glass</li>
+                                    <li>Garnish with orange and cherry</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-eq-height col mb-4">
+                        <div class="card h-100">
+                            <img src="assets/images/mai-tai.jpg" class="card-img-top" alt="Mai-Tai cocktail photo" />
+                            <div class="card-body">
+                                <h5 class="card-title">Mai Tai</h5>
+                                <ul class="card card-pad">
+                                    <li class="subtitle">INGREDIENTS:</li>
+                                    <li>30ml white rum</li>
+                                    <li>15ml dark rum</li>
+                                    <li>45ml orange juice</li>
+                                    <li>45ml pineapple juice</li>
+                                    <li>5ml Creme de Almond</li>
+                                    <li>red cherry and orange segment</li>
+                                    <li>ice cubes</li>
+                                </ul>
+                                <ol class="card card-pad">
+                                    <li class="subtitle">HOW TO MIX:</li>
+                                    <li>Fill up the glass with ice</li>
+                                    <li>Fill up the shaker with ice cubes</li>
+                                    <li>Pour Creme de Almond, white rum, dark rum, orange and pineapple juice into the shaker</li>
+                                    <li>Shake well</li>
+                                    <li>Strain into the collins glass</li>
+                                    <li>Garnish with orange segment and red cherry, or mint leaves, lime wheel and pineapple wedges</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-eq-height col mb-4">
+                        <div class="card h-100">
+                            <img src="assets/images/blue-tahoe.jpg" class="card-img-top" alt="Blue-Tahoe cocktail photo" />
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Tahoe</h5>
+                                <ul class="card card-pad">
+                                    <li class="subtitle">INGREDIENTS:</li>
+                                    <li>30ml Blue Curaçao</li>
+                                    <li>45ml El Tesoro Platinum Tequila</li>
+                                    <li>60ml Champagne</li>
+                                    <li>30ml lemon juice</li>
+                                    <li>mint leaf and lemon segment</li>
+                                    <li>ice cubes</li>
+                                </ul>
+                                <ol class="card card-pad">
+                                    <li class="subtitle">HOW TO MIX:</li>
+                                    <li>Fill up the glass with ice</li>
+                                    <li>Fill up the shaker with ice cubes</li>
+                                    <li>Pour the Tequila, Blue Curaçao, lemon juice, followed by the champagne last into the shaker</li>
+                                    <li>Shake well</li>
+                                    <li>Strain into the collins glass</li>
+                                    <li>Garnish with mint leaf and lemon segment</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-eq-height col mb-4">
+                        <div class="card h-100">
+                            <img src="assets/images/blue-hawaii.jpg" class="card-img-top" alt="Blue-Hawaii cocktail photo" />
+                            <div class="card-body">
+                                <h5 class="card-title">Blue Hawaii</h5>
+                                <ul class="card card-pad">
+                                    <li class="subtitle">INGREDIENTS:</li>
+                                    <li>15ml white rum</li>
+                                    <li>15ml Blue Curaçao</li>
+                                    <li>15ml dark rum</li>
+                                    <li>30ml pineapple juice</li>
+                                    <li>30ml orange juice</li>
+                                    <li>30ml Sweet & Sour</li>
+                                    <li>red cherry and pineapple segment</li>
+                                    <li>ice cubes</li>
+                                </ul>
+                                <ol class="card card-pad">
+                                    <li class="subtitle">HOW TO MIX:</li>
+                                    <li>Fill up the glass with ice</li>
+                                    <li>Fill up the shaker with ice cubes</li>
+                                    <li>Pour the dark rum, white rum, Blue Curaçao, Sweet & Sour, orange and pineapple juice into the shaker</li>
+                                    <li>Shake well</li>
+                                    <li>Strain into the hurricane glass</li>
+                                    <li>Garnish with red cherry and pineapple segment</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- /.Footer Back To Top -->
-        <!-- Footer Menu -->
-        <div class="row">
-            <div class="footer-menu col col-12 col-lg-4 order-first">
-                <ul>
-                    <li class="footer-title">MENU</li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="tips&tricks.html">Tips & Tricks</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="events.html">Events</a></li>
-                </ul>
+        <!-- /.Cocktails to Try -->
+        <!-- Buy Ingredients - build with the help of bootstrap, stores referenced have the links within the code -->
+        <div class="container-fluid bg-color-gray pad-text">
+            <div class="row">
+                <div class="p-2 m-auto col-12 text-center">
+                    <h2>
+                        <i class="fas fa-shopping-cart" style="color: #915b0b;"></i>
+                        Where to Buy These Ingredients
+                    </h2>
+                </div>
+                <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
+                    <div class="row shop-row p-3">
+                        <div class="col col-12 col-md-4 m-auto">
+                            <img src="assets/images/barproducts.png" class="img-fluid" alt="BarProducts logo" />
+                        </div>
+                        <div class="col col-12 col-md-8 m-auto">
+                            <p>
+                                <strong>BarProducts</strong> is an online store where you can find a wide variety of cocktail mixers, bitters, syrups and cocktail garnishes. They sell bar supplies, tools and equipments. You can also
+                                customize certain tools with your own logo.
+                            </p>
+                            <a href="https://www.barproducts.com/bar-owners/cocktail-ingredients" target="_blank"> <i class="fas fa-caret-right" style="color: #915b0b;"></i> Find out more on their website. </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
+                    <div class="row shop-row p-3">
+                        <div class="col col-12 col-md-4 m-auto">
+                            <img src="assets/images/souschef.png" class="img-fluid" alt="SousChef logo" />
+                        </div>
+                        <div class="col col-12 col-md-8">
+                            <p>
+                                <strong>SousChef</strong> brings online all the necessary tools and types of glassware that you need, to make your bar set complete. They have available different products by brand and also based on different
+                                techniques. You can earn points by becoming a member, together with exciting perks and exclusive rewards.
+                            </p>
+                            <a href="https://www.souschef.co.uk/collections/cocktail-making" target="_blank"> <i class="fas fa-caret-right" style="color: #915b0b;"></i> Find out more on their website. </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
+                    <div class="row shop-row p-3">
+                        <div class="col col-12 col-md-4 m-auto">
+                            <img src="assets/images/kegworks.png" class="img-fluid" alt="Kegworks logo" />
+                        </div>
+                        <div class="col col-12 col-md-8">
+                            <p>
+                                <strong>KegWorks</strong> is a great online store for cocktail ingredients, syrups, bitters, alcoholic cocktail mixers and non-alcoholic cocktail mixers. You can find on their website plenty of useful blog
+                                posts and you can now get 10% off with your first order.
+                            </p>
+                            <a href="https://www.kegworks.com/cocktail-ingredients" target="_blank"> <i class="fas fa-caret-right" style="color: #915b0b;"></i> Find out more on their website. </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col row-eq-height col-12 col-md-12 col-lg-6 shop-col">
+                    <div class="row shop-row p-3">
+                        <div class="col col-12 col-md-4 m-auto">
+                            <img src="assets/images/drinkstore.png" class="img-fluid" alt="DrinkStore logo" />
+                        </div>
+                        <div class="col col-12 col-md-8">
+                            <p>
+                                <strong>DrinkStore</strong> has available spirits and liqueurs, together with already prepared cocktail mixers concentrates, to make your life easier when you want to prepare one of your favorites cocktails
+                                at home.
+                            </p>
+                            <a href="https://www.drinkstore.ie/Cocktails-Mix/1/" target="_blank"> <i class="fas fa-caret-right" style="color: #915b0b;"></i> Find out more on their website. </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- /.Footer Menu -->
-            <!-- Footer Social Media & Logo -->
-            <div class="footer-logo col col-12 col-lg-4">
-                <img
-                    src="assets/images/logo_transparent.png"
-                    class="img-fluid"
-                    width="150"
-                    height="150"
-                    alt="ZestyTails logo"/>
-                <ul class="social-links">
-                    <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank" 
-                        aria-hidden="true"><i class="fab fa-twitter-square"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank" 
-                        aria-hidden="true"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" 
-                        aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.Footer Social Media & Logo -->
-            <!-- Footer Contact Details -->
-            <div class="col col-12 col-lg-4 order-first order-lg-last">
-                <ul>
-                    <li class="footer-title">CONTACT</li>
-                    <li>ZestyTails</li>
-                    <li>Ingrid Estate,</li>
-                    <li>Dublin, Ireland</li>
-                    <li>info@zestytails.com</li>
-                    <li>869 785 462</li>
-                </ul>
-            </div>
-            <!-- /.Footer Contact Details -->
         </div>
-        <!-- Copyright -->
-        <div class="row">
-            <div class="col col-12">
-                <p class="copyright">&copy;2020 ZestyTails & <a href="https://github.com/anabear" 
-                    target="_blank">Ana Butler</a>
-                </p>
+        <!-- /.Buy Ingredients -->
+        <!-- Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools -->
+        <footer class="container-fluid">
+            <div id="footer" class="row">
+                <!-- Footer Back To Top -->
+                <div class="button-footer col col-12">
+                    <a href="#" class="btn btn-warning btn--abc footer-btn">Back To Top</a>
+                </div>
             </div>
-        </div>    
-        <!-- /.Copyright -->
-    </footer>
-    <!-- /.Footer -->
-    <!-- CDN -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <!-- CDN -->
-  </body>
+            <!-- /.Footer Back To Top -->
+            <!-- Footer Menu -->
+            <div class="row">
+                <div class="footer-menu col col-12 col-lg-4 order-first">
+                    <ul>
+                        <li class="footer-title">MENU</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tips&tricks.html">Tips & Tricks</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <!-- /.Footer Menu -->
+                <!-- Footer Social Media & Logo -->
+                <div class="footer-logo col col-12 col-lg-4">
+                    <img src="assets/images/logo_transparent.png" class="img-fluid" width="150" height="150" alt="ZestyTails logo" />
+                    <ul class="social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" target="_blank" aria-hidden="true"><i class="fab fa-twitter-square"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank" aria-hidden="true"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Footer Social Media & Logo -->
+                <!-- Footer Contact Details -->
+                <div class="col col-12 col-lg-4 order-first order-lg-last">
+                    <ul>
+                        <li class="footer-title">CONTACT</li>
+                        <li>ZestyTails</li>
+                        <li>Ingrid Estate,</li>
+                        <li>Dublin, Ireland</li>
+                        <li>info@zestytails.com</li>
+                        <li>869 785 462</li>
+                    </ul>
+                </div>
+                <!-- /.Footer Contact Details -->
+            </div>
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col col-12">
+                    <p class="copyright">&copy;2020 ZestyTails & <a href="https://github.com/anabear" target="_blank">Ana Butler</a></p>
+                </div>
+            </div>
+            <!-- /.Copyright -->
+        </footer>
+        <!-- /.Footer -->
+        <!-- CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- CDN -->
+    </body>
 </html>

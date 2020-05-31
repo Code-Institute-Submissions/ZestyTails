@@ -1,231 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"/>
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-      crossorigin="anonymous"/>
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/faviconz.png">
-    <!-- Title -->
-    <title>ZestyTails</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <!-- NavBar - inspired from my code institute projects[Whiskey Drop / Love Running], bootstrap, stackoverflow and w3schools -->
-      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-      <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="index.html"
-            ><img src="assets/images/nav_logo_s.png"
-            width="170"
-            height="110"
-            class="img-fluid"
-            alt="ZestyTails logo"/>
-        </a>
-        <button
-          class="navbar-toggler navbar-dark"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tips&tricks.html">Tips & Tricks</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="recipes.html">Recipes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <!-- /.Nav -->
-    <!-- Jumbotron - inspired from my code institute projects[Whiskey Drop] -->
-    <div class="container-fluid hero-container">
-        <section class="jumbotron text-center">
-            <h2 class="slogan">
-              ZestyTails cocktail events, for people who want more.
-            </h2>
-            <a class="btn btn-warning btn--cta btn--abc btn-lg" href="#bottom" role="button">About</a>
-            <a class="btn btn-warning btn--cta btn--abc btn-lg" href="contact.html" role="button">Contact</a>
-        </section>
-    </div>
-    <!-- /.Jumbotron -->
-    <!-- Expert Bar Events - text referenced from expertbarevents.ie, code build with the help of w3schools and my previous code institute projects-->
-    <div class="container-fluid bg-color-gray pad-text">
-        <div class="row"> 
-            <div class="p-2 m-auto col-12 text-center">
-                 <h2><i class="fas fa-info-circle" style="color:#915b0b;"></i>
-                 Expert Bar Events
-                 </h2>
-            </div>
-            <div class="p-2 m-auto col-12 col-lg-8">
-                 <p>If you’ve been given the task of organising a fun event you’ve 
-                surely created a list of what you would need: food, entertainment, 
-                and of course drink. Why not hire a mobile cocktail bar? You’ll be able 
-                to amaze your guests with zesty, tangy and exciting cocktails to excite 
-                their taste buds with mixes they’ve probably never tried before. At Expert Bar Events 
-                we have fully trained and experienced mobile cocktail bartenders, which allows us 
-                to offer you an exciting menu for you & your guests.
-                 </p>
-                 <p>We Travel Everywhere In Europe.
-                 </p>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 col-12 col-lg-4">
-                <!-- Copy & Pasted from YouTube -->
-                <iframe 
-                    src="https://www.youtube-nocookie.com/embed/ESSMrgXHEG0?start=8" 
-                    class="embed-responsive-item img-fluid p-2"
-                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                    width="250"
-                    height="250">   
-                </iframe>
-            </div>
-        </div>
-    </div>
-    <!-- /.Expert Bar Events -->
-    <!-- About us - photos taken from unsplash.com and text referenced from bartenderspiritsawards.com-->
-    <div class="container-fluid bg-color-orange pad-text">
-        <div class="row"> 
-            <div class="p-2 m-auto col col-12 text-center">
-                 <h2 id="bottom"><i class="fas fa-microphone-alt" style="color:#2f3847;"></i>
-                 About Us
-                 </h2>
-            </div>
-            <div class="p-2 m-auto col col-12 col-lg-4 text-center">
-                 <img src="assets/images/about_us1.jpg" 
-                 class="img-fluid"
-                 alt="Photo Cyrus and Andrea">
-            </div>
-            <div class="p-2 m-auto col-12 col-lg-8">
-                 <p> Our team is composed by Cyrus and Andrea. They are both known for their love of mixology and 
-                 thirst for innovation and creation of craft cocktails. Cyrus is a German entrepreneur, writer, and bartender,
-                 mixologist. In addition to being a leader in the classic cocktail movement, he is an expert on the history and 
-                 culture of spirits and drinks. His long list of awards includes being crowned Global Bartending champion in the 
-                 2014 World Class competition, besting over 50 countries to become the first German to hold the title. 
-                 Andrea is a Dublin-based bartender, mixologist. Her most preferred choice in mixing is rum and she worked hard 
-                 to perfect the art of mixing the best rum cocktails. 
-                 </p>
-            </div>
-        </div>   
-    </div>
-    <!-- /.About us -->
-    <!-- Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools -->
-    <footer class="container-fluid">
-        <div id="footer" class="row">
-        <!-- Footer Back To Top -->
-            <div class="button-footer col col-12">
-                <button type="button" class="btn btn-warning btn--abc 
-                footer-btn"><a href="#">Back To Top</a>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+        <!-- STYLE CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="assets/images/faviconz.png" />
+        <!-- Title -->
+        <title>ZestyTails</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- NavBar - inspired from my code institute projects[Whiskey Drop / Love Running], bootstrap, stackoverflow and w3schools -->
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/nav_logo_s.png" width="170" height="110" class="img-fluid" alt="ZestyTails logo" /> </a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips&tricks.html">Tips & Tricks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recipes.html">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- /.Nav -->
+        <!-- Jumbotron - inspired from my code institute projects[Whiskey Drop] -->
+        <div class="container-fluid hero-container">
+            <section class="jumbotron text-center">
+                <h2 class="slogan">
+                    ZestyTails cocktail events, for people who want more.
+                </h2>
+                <a class="btn btn-warning btn--cta btn--abc btn-lg" href="#bottom" role="button">About</a>
+                <a class="btn btn-warning btn--cta btn--abc btn-lg" href="contact.html" role="button">Contact</a>
+            </section>
+        </div>
+        <!-- /.Jumbotron -->
+        <!-- Expert Bar Events - text referenced from expertbarevents.ie, code build with the help of w3schools and my previous code institute projects-->
+        <div class="container-fluid bg-color-gray pad-text">
+            <div class="row">
+                <div class="p-2 m-auto col-12 text-center">
+                    <h2>
+                        <i class="fas fa-info-circle" style="color: #915b0b;"></i>
+                        Expert Bar Events
+                    </h2>
+                </div>
+                <div class="p-2 m-auto col-12 col-lg-8">
+                    <p>
+                        If you’ve been given the task of organising a fun event you’ve surely created a list of what you would need: food, entertainment, and of course drink. Why not hire a mobile cocktail bar? You’ll be able to amaze your
+                        guests with zesty, tangy and exciting cocktails to excite their taste buds with mixes they’ve probably never tried before. At Expert Bar Events we have fully trained and experienced mobile cocktail bartenders, which
+                        allows us to offer you an exciting menu for you & your guests.
+                    </p>
+                    <p>We Travel Everywhere In Europe.</p>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 col-12 col-lg-4">
+                    <!-- Copy & Pasted from YouTube -->
+                    <iframe title="Video with Drinks Showcase"
+                        src="https://www.youtube-nocookie.com/embed/ESSMrgXHEG0?start=8"
+                        class="embed-responsive-item img-fluid p-2"
+                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        width="250"
+                        height="250">
+                    </iframe>
+                </div>
             </div>
         </div>
-        <!-- /.Footer Back To Top -->
-        <!-- Footer Menu -->
-        <div class="row">
-            <div class="footer-menu col col-12 col-lg-4 order-first">
-                <ul>
-                    <li class="footer-title">MENU</li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="tips&tricks.html">Tips & Tricks</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="events.html">Events</a></li>
-                </ul>
+        <!-- /.Expert Bar Events -->
+        <!-- About us - photos taken from unsplash.com and text referenced from bartenderspiritsawards.com-->
+        <div class="container-fluid bg-color-orange pad-text">
+            <div class="row">
+                <div class="p-2 m-auto col col-12 text-center">
+                    <h2 id="bottom">
+                        <i class="fas fa-microphone-alt" style="color: #2f3847;"></i>
+                        About Us
+                    </h2>
+                </div>
+                <div class="p-2 m-auto col col-12 col-lg-4 text-center">
+                    <img src="assets/images/about_us1.jpg" class="img-fluid" alt="Photo Cyrus and Andrea" />
+                </div>
+                <div class="p-2 m-auto col-12 col-lg-8">
+                    <p>
+                        Our team is composed by Cyrus and Andrea. They are both known for their love of mixology and thirst for innovation and creation of craft cocktails. Cyrus is a German entrepreneur, writer, and bartender, mixologist.
+                        In addition to being a leader in the classic cocktail movement, he is an expert on the history and culture of spirits and drinks. His long list of awards includes being crowned Global Bartending champion in the 2014
+                        World Class competition, besting over 50 countries to become the first German to hold the title. Andrea is a Dublin-based bartender, mixologist. Her most preferred choice in mixing is rum and she worked hard to
+                        perfect the art of mixing the best rum cocktails.
+                    </p>
+                </div>
             </div>
-            <!-- /.Footer Menu -->
-            <!-- Footer Social Media & Logo -->
-            <div class="footer-logo col col-12 col-lg-4">
-                <img
-                    src="assets/images/logo_transparent.png"
-                    class="img-fluid"
-                    width="150"
-                    height="150"
-                    alt="ZestyTails logo"/>
-                <ul class="social-links">
-                    <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank" 
-                        aria-hidden="true"><i class="fab fa-twitter-square"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank" 
-                        aria-hidden="true"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" 
-                        aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.Footer Social Media & Logo -->
-            <!-- Footer Contact Details -->
-            <div class="col col-12 col-lg-4 order-first order-lg-last">
-                <ul>
-                    <li class="footer-title">CONTACT</li>
-                    <li>ZestyTails</li>
-                    <li>Ingrid Estate,</li>
-                    <li>Dublin, Ireland</li>
-                    <li>info@zestytails.com</li>
-                    <li>869 785 462</li>
-                </ul>
-            </div>
-            <!-- /.Footer Contact Details -->
         </div>
-        <!-- Copyright -->
-        <div class="row">
-            <div class="col col-12">
-                <p class="copyright">&copy;2020 ZestyTails & <a href="https://github.com/anabear" 
-                    target="_blank">Ana Butler</a>
-                </p>
+        <!-- /.About us -->
+        <!-- Footer - inspired from my code institute projects[Rosie - resume & Love-Running], bootstrap, w3schools -->
+        <footer class="container-fluid">
+            <div id="footer" class="row">
+                <!-- Footer Back To Top -->
+                <div class="button-footer col col-12">
+                    <a href="#" class="btn btn-warning btn--abc footer-btn">Back To Top</a>
+                </div>
             </div>
-        </div>    
-        <!-- /.Copyright -->
-    </footer>
-    <!-- /.Footer -->
-    <!-- CDN -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <!-- CDN -->
-  </body>
+            <!-- /.Footer Back To Top -->
+            <!-- Footer Menu -->
+            <div class="row">
+                <div class="footer-menu col col-12 col-lg-4 order-first">
+                    <ul>
+                        <li class="footer-title">MENU</li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="tips&tricks.html">Tips & Tricks</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <!-- /.Footer Menu -->
+                <!-- Footer Social Media & Logo -->
+                <div class="footer-logo col col-12 col-lg-4">
+                    <img src="assets/images/logo_transparent.png" class="img-fluid" width="150" height="150" alt="ZestyTails logo" />
+                    <ul class="social-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" target="_blank" aria-hidden="true"><i class="fab fa-twitter-square"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank" aria-hidden="true"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank" aria-hidden="true"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.Footer Social Media & Logo -->
+                <!-- Footer Contact Details -->
+                <div class="col col-12 col-lg-4 order-first order-lg-last">
+                    <ul>
+                        <li class="footer-title">CONTACT</li>
+                        <li>ZestyTails</li>
+                        <li>Ingrid Estate,</li>
+                        <li>Dublin, Ireland</li>
+                        <li>info@zestytails.com</li>
+                        <li>869 785 462</li>
+                    </ul>
+                </div>
+                <!-- /.Footer Contact Details -->
+            </div>
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col col-12">
+                    <p class="copyright">&copy;2020 ZestyTails & <a href="https://github.com/anabear" target="_blank">Ana Butler</a></p>
+                </div>
+            </div>
+            <!-- /.Copyright -->
+        </footer>
+        <!-- /.Footer -->
+        <!-- CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- CDN -->
+    </body>
 </html>
