@@ -221,7 +221,7 @@ planner for the project management.
     to help me locate overflow issues during the process of bulding the website.
 *   Used [Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) 
     to help me audit the website's performance, accessibility, check for quality improvements and help reduce loading time.
-*   Used [mobiReady](https://ready.mobi/) to test website performance on mobile devices.
+*   Used [mobiReady](https://ready.mobi/) to test website performance on different devices.
 *   Used photo editor [Befunky](https://www.befunky.com/) to help me resive photos, while keeping a good resolution.
 *   [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
 *   [W3C Markup Validation](https://validator.w3.org/) used to validate HTML code.
@@ -231,7 +231,7 @@ planner for the project management.
 
 ## Testing
 
-*   Checked the website on multiple browsers: 
+*   Tested the website on multiple browsers: Chrome, Firefox, Safari, Edge.
 *   [W3C Markup Validation](https://validator.w3.org/):
     *   **Home** - shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
         the frameborder, the overflow property and the text.
@@ -248,7 +248,8 @@ planner for the project management.
     *   Reduced photos size when available. Reduced about us image and the logo transparent image sizes, but did not reduce the hero image as I want it to have a 
         clear and neat resolution on all devices.
     *   Added a title to the **iframe** video for accessibility.
-    *   
+*   Some errors shown on [mobiReady](https://ready.mobi/) while testing in relation to frames, css and image resizing could not be corrected as they are required
+        for the website functionality.
 
 
 ### Stories
