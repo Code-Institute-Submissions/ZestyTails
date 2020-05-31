@@ -9,8 +9,6 @@ meet the team, and testimonials.
 
 ---
 
-> **[ADD HERE THE RESPONSIVE PREVIEW AFTER THE WEBSITE IS BUILT < USE [THIS LINK TO CREATE IT](http://ami.responsivedesign.is/)]**
-
 **A live demo of the website can [**be found here**](https://anabear.github.io/ZestyTails/)**.
 
 ---
@@ -211,9 +209,37 @@ planner for the project management.
 
 ### Testing tools
 
+*   I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) through the whole process of building the website, 
+    to help me test the responsiveness, as I was building up every page and section, and to fix any issues that occured in this process.
+    Used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/device-mode/) to also check how the
+    website performs on all device sizes.
+*   Used the [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work properly 
+    all modern browsers. 
+*   Used [Responsivedesign](http://ami.responsivedesign.is/#) and [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php)
+    to make sure the website is responsive on all devices.
+*   Used often [Unicorn Revealer Chrome Extension](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) 
+    to help me locate overflow issues during the process of bulding the website.
+*   Used [Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) 
+    to help me audit the website's performance, accessibility, check for quality improvements and help reduce loading time.
+*   Used [mobiReady](https://ready.mobi/) to test website performance on mobile devices.
+*   Used photo editor [Befunky](https://www.befunky.com/) to help me resive photos, while keeping a good resolution.
+*   [W3C CSS validation](https://jigsaw.w3.org/css-validator/) to validate CSS.
+*   [W3C Markup Validation](https://validator.w3.org/) to validate HTML code.
+*   [HTML Formatter](https://htmlformatter.com/) used to format the HTML code.
+
 ---
 
 ## Testing
+
+*   Checked the website on multiple browsers: 
+*   [W3C Markup Validation](https://validator.w3.org/):
+        *   shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
+            the frameborder, the overflow property and the text.
+        *   the 'back to top' button cannot appear as a descendant of an <a> element. I needed to move the <a> link created for the 'back to top' 
+            button inside the <button>. Adjusted this for all pages.
+        *   
+*    
+
 
 ### Stories
 
