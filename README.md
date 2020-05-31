@@ -223,8 +223,8 @@ planner for the project management.
     to help me audit the website's performance, accessibility, check for quality improvements and help reduce loading time.
 *   Used [mobiReady](https://ready.mobi/) to test website performance on mobile devices.
 *   Used photo editor [Befunky](https://www.befunky.com/) to help me resive photos, while keeping a good resolution.
-*   [W3C CSS validation](https://jigsaw.w3.org/css-validator/) to validate CSS.
-*   [W3C Markup Validation](https://validator.w3.org/) to validate HTML code.
+*   [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
+*   [W3C Markup Validation](https://validator.w3.org/) used to validate HTML code.
 *   [HTML Formatter](https://htmlformatter.com/) used to format the HTML code.
 
 ---
@@ -233,11 +233,11 @@ planner for the project management.
 
 *   Checked the website on multiple browsers: 
 *   [W3C Markup Validation](https://validator.w3.org/):
-        *   shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
-            the frameborder, the overflow property and the text.
-        *   the 'back to top' button cannot appear as a descendant of an <a> element. I needed to move the <a> link created for the 'back to top' 
-            button inside the <button>. Adjusted this for all pages.
-        *   
+    *   shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
+        the frameborder, the overflow property and the text.
+    *   the 'back to top' button cannot appear as a descendant of an a element. I needed to move the a link created for the 'back to top' 
+        button inside the button. Adjusted this for all pages.
+    *   
 *    
 
 
