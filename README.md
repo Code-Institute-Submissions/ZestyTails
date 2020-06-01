@@ -7,11 +7,9 @@ page (that will have a contact form), Form confirmation page, and Events page. T
 information, such as cocktail related tips, a recipes gallery, contact form, future events where people can 
 meet the team, and testimonials.
 
----
-
 **A live demo of the website can [**be found here**](https://anabear.github.io/ZestyTails/)**.
 
----
+------
 
 # Table of Contents
 
@@ -31,7 +29,6 @@ meet the team, and testimonials.
 * [Testing](#Testing)
   * [Stories](#Stories)
   * [Test scenarios](#Test-scenarios)
-  * [Bugs](#Bugs)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
   * [Content](#Content)
@@ -39,7 +36,7 @@ meet the team, and testimonials.
   * [Acknowledgements](#Acknowledgements)
   * [Disclaimer!](#Disclaimer)
 
----
+------
 
 ## Introduction
 
@@ -60,7 +57,7 @@ A future events page will provide information about the participation at expos a
 individuals can meet the team and try out some of their cocktails. We hope that the testimonials added on the 
 website will help build the trust in the ZestyTails company.
 
----
+------
 
 ## UX
 
@@ -81,7 +78,7 @@ website will help build the trust in the ZestyTails company.
 ### User Stories
 
 * As a user, I want to see a website that has a fast loading time, so that I can browse the website fast and easy, 
-    without loosing interest because of the waiting time.
+    without losing interest because of the waiting time.
 * As a user, I want to see a website with warm and blending colours, with a functional and easy to use, intuitive 
     layout. 
 * As a user, I want the website to have a consistent experience.
@@ -128,7 +125,7 @@ website will help build the trust in the ZestyTails company.
 
 As part of the development process I created 11 wireframes for my website (5 desktop pages, 5 mobile versions and 1 home
 ipad version) using the [Balsamiq tool](https://balsamiq.com/wireframes/desktop/#). These wireframes were created 
-at the start of the projest, to help create a clear image of the website I want to build and also to be used as a 
+at the start of the project, to help create a clear image of the website I want to build and also to be used as a 
 planner for the project management.
 * The contact form response page was created last, and it was a last minute decision, therefore the wireframe has not been built for it.
 * This is the [**PDF version of the wireframes**](https://drive.google.com/file/d/1bozIMADexjemmPHJ5aN11zCDk14R9F4X/view?usp=sharing).
@@ -138,7 +135,7 @@ planner for the project management.
 * These wireframes are also stored in the [wireframes directory](https://github.com/anabear/ZestyTails/blob/4ccce0fa4d76c44e1c188472a322804f0bbb97f6/wireframes).
 
 
----
+------
 
 ## Featuress
 
@@ -158,7 +155,7 @@ planner for the project management.
 * **Contact form** - easy and fast contact form for inquiries, with intuitive design.
 * **Form validation** - ensures accurate information is entered into the contact form.
 * **Form submission confirmation page** - provides confirmation to users that the information was successfully sent. 
-    When the contact forms submitted, this page will show a thank you confirmation message and links to the other pages.
+    When the contact form is submitted, this page will show a thank you confirmation message and links to the other pages.
 * **Testimonials** - to inspire trust and show what other individuals think about the team.
 * **Back to top button** - to help the users get easily to the top of the page.
 
@@ -168,14 +165,14 @@ planner for the project management.
 * **Sign-up form list** - for newsletter marketing
 * **Community posts** - where users can share tips and collaborate for events
 * **User comments on our tips and tricks** - where users can contribute to whether they found our information useful or not.
-* **Blog posts** - with read more buttons and organized, easy to read layout.
+* **Blog posts** - with 'read more' buttons and organized, easy to read layout.
 * **Discounts** - for users participating in the next workshops.
 * **Keyword search** - to allow users to find recipes based on the ingredients.
 * **Breadcrumbs** - once the website has pages more than one layer deep, breadcrumbs will make the website easier to navigate 
     for the users.
 * **Social media presence** - that could provide more information about the team, and make the website more credible.   
 
----
+------
 
 ## Technologies Used
 
@@ -209,55 +206,201 @@ planner for the project management.
 
 ### Testing tools
 
-*   I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) through the whole process of building the website, 
+* I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) through the whole process of building the website, 
     to help me test the responsiveness, as I was building up every page and section, and to fix any issues that occured in this process.
     Used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/device-mode/) to also check how the
     website performs on all device sizes.
-*   Used the [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work properly 
+* Used the [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work properly on
     all modern browsers. 
-*   Used [Responsivedesign](http://ami.responsivedesign.is/#) and [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php)
+* Used [Responsivedesign](http://ami.responsivedesign.is/#) and [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php)
     to make sure the website is responsive on all devices.
-*   Used often [Unicorn Revealer Chrome Extension](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) 
-    to help me locate overflow issues during the process of bulding the website.
-*   Used [Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) 
+* Used often [Unicorn Revealer Chrome Extension](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) 
+    to help me locate overflow issues during the process of building the website.
+* Used [Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) 
     to help me audit the website's performance, accessibility, check for quality improvements and help reduce loading time.
-*   Used [mobiReady](https://ready.mobi/) to test website performance on different devices.
-*   Used photo editor [Befunky](https://www.befunky.com/) to help me resive photos, while keeping a good resolution.
-*   [W3C CSS validation](https://jigsaw.w3.org/css-validator/) used to validate CSS.
-*   [W3C Markup Validation](https://validator.w3.org/) used to validate HTML code.
-*   [HTML Formatter](https://htmlformatter.com/) used to format the HTML and CSS code.
+* Used [mobiReady](https://ready.mobi/) to test website performance on different devices.
+* Used photo editor [Befunky](https://www.befunky.com/) to help me resize photos, while keeping a good resolution.
+* Used [W3C CSS validation](https://jigsaw.w3.org/css-validator/) to validate CSS. 
+* Used [W3C Markup Validation](https://validator.w3.org/) to validate HTML code.
+* Used [HTML Formatter](https://htmlformatter.com/) to format the HTML and CSS code.
 
----
+------
 
 ## Testing
 
-*   Tested the website on multiple browsers: Chrome, Firefox, Safari, Edge.
-*   [W3C Markup Validation](https://validator.w3.org/):
-    *   **Home** - shown that iframe needs adjustement regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
-        the frameborder, the overflow property and the text.
-    *   **Home** - *the 'back to top' button cannot appear as a descendant of an **a** element* - I needed to move the **a** link created for the 'back to top' 
-        button inside the **button**. Adjusted this for all pages. >> This seems to not work neither for the validator, will need to find another alternative.
-        I therefore removed the **button** and styled the bootstrap **btn** within the **a** element.
-    *   **Recipes** - *Element **lh** not allowed as child of element **ul** in this context* - I used **lh** as I have seen 
-        [on their website here](https://www.w3.org/MarkUp/html3/bulletlists.html), but modified this instead to a **li** with a class "subtitle".
-    *   **Contact** - had to modify the contact form bootstrap code in order to adere to the validator's requests.    
-*   [W3C CSS validation](https://jigsaw.w3.org/css-validator/):
-    *   Had to adjust the **navbar-toggler** border unit.
-*   Based on the [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) audit I was able to improve the 
-    following:
-    *   Reduced photos size when available. Reduced about us image and the logo transparent image sizes, but did not reduce the hero image as I want it to have a 
-        clear and neat resolution on all devices.
-    *   Added a title to the **iframe** video for accessibility.
-*   Some errors shown on [mobiReady](https://ready.mobi/) while testing in relation to frames, css and image resizing could not be corrected as they are required
-        for the website functionality.
-
+* Tested the website on multiple browsers: Chrome, Firefox, Safari. It works good on Chrome and Firefox, but on Safari the background image is too zoomed in.
+* Tested the website on different screens sizes by using [Responsivedesign](http://ami.responsivedesign.is/#) and [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php).
+    The website is responsive on all major devices. The layout changes as predicted, the menu transforms into a burger menu on small devices and pictures resize
+    according to the device size. There is a good visual over the text and buttons and there is enough space between text and sides of the screen. Loading time 
+    is fast, the website is easy to navigate. The background image zooms in on smaller devices, and renders the slogan clear and visible.     
+* I entered my html code, each page at a time, on the [W3C Markup Validation](https://validator.w3.org/) page, through **Validate by direct input**, clicked
+    on **Check** and I have found the following:
+  * **Home** - shown that iframe needs adjustment regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
+    the frameborder, the overflow property and the text.
+  * **Home** - *the 'back to top' button cannot appear as a descendant of an **a** element* - I therefore removed the **button** and styled the bootstrap 
+    **btn** within the **a** element. Adjusted this on all pages.
+  * **Recipes** - *Element **lh** not allowed as child of element **ul** in this context* - I used **lh** as I have seen it
+    [on the w3.org website, here](https://www.w3.org/MarkUp/html3/bulletlists.html). Adjusted this, by modifying the title, to become an **h6** with a class
+    of "subtitle", inside a **div**.
+  * **Contact** - I had to modify the contact form bootstrap code in order to adhere to the validator's requests. Input type was not accepted.    
+* I validated my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, by clicking on **By direct input** and adding the full css code
+    from my *style.css*, clicked on **Check** and I have found the following:
+  * Had to adjust the **navbar-toggler** border unit.
+  * There are several warnings (34), but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes
+    it needs, in order to work properly on all modern browsers.
+* I proceeded with the [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) audit by adding the extension
+    to my Chrome browser, clicking on the extension icon, and next clicking on **Generate report** button within the browser extension, once I was
+    [on the homepage of my website](https://github.com/anabear/ZestyTails). Based on the audit, I was able to improve the following:
+  * Reduced photos size when available. Reduced about us image and the logo transparent image sizes, but did not reduce the hero image as I want it to have a 
+    clear and neat resolution on all devices.
+  * Added a title to the **iframe** video for accessibility.
+* Tested the website on [mobiReady](https://ready.mobi/) by adding the website's URL in the main box on the website's main page and clicking on **Go**. Some errors 
+    shown on [mobiReady](https://ready.mobi/) while testing were in relation to frames, css measurements and image resizing which could not be corrected as they 
+    are required for the website functionality. [Screenshot of the test scan can be seen here](https://screenshot.click/31_53-vozy0-bdc45.png).
 
 ### Stories
 
+* *As a user, I want to see a website that has a fast loading time, so that I can browse the website fast and easily, without losing interest because of the waiting time.*
+  * I made sure that the website loads fast by testing the website with different tools and also by reducing the size of the images that were too big.
+
+* *As a user, I want to see a website with warm and blending colours, with a functional and easy to use, intuitive layout.*
+  * I made sure that the website has warm colours, that it feels welcoming, and there are no strong colours used. The layout is intuitive, having available 
+    a navigation bar at the top of the screen. The footer is located at the bottom of the screen, social media, contact details and links are available in the footer.
+    The website has visible links and buttons. The buttons have a hover effect to provide a reaction to users action.  
+
+* *As a user, I want the website to have a consistent experience.*
+  * I achieved this by using the same colours within specific sections, having specific colours for links and buttons, used one font for titles and one font for text.
+    Added icons to titles for the user to easily understand what the section might be associated to.   
+
+* *As a user, I want to feel that I can come back for new content and not be presented with the same old information.*
+  * This can be achieved with the constant update of the **Suggestion of the month** section on the *Tips & Tricks page*. The *Recipes page* could also be updated regularly,
+    by suggesting different cocktails and shops. The *Events page* could have new content from once in a while by updating the **Future Events** section. 
+
+* *As a user, I want to be able to contact the team easily, if I have more questions.*
+  * I made sure to add the contact details in the footer of the website. Social media links can also be found in the footer. Contact button is available on the home page header,
+    to make it easily accessible for users who are looking to contact the team directly. The *Contact page* can also be found in both the header and footer.
+
+* *As a user, I want to see a confirmation that my inquiry has been sent without any issues.*
+  * On the *Contact page* I applied the data validation, to make sure users don't omit to fill out their details. Once the form has been filled and submitted, there will be 
+    another page showing up, thanking the user for filling out the form. 
+
+* *As a user, I want the website to look credible and trustworthy.*
+  * I made sure to include a **Testimonials** section on the *Events page* to increase the users trust. A favicon has been added to all pages *head*. There have been included
+    high quality images, made sure each section has either a picture, video or lists suggestions. Links to social media and contact are easy to find.
+
+* *As a user, I want to see responsive buttons, so I know that an action was taken when I clicked a button.* 
+  * I made sure to add shadow and hover colour change, to make sure the user will be able to see a change when an action was taken, thus being either a button or link.
+
+* *As a user, I want to see a navigation bar that can lead to other pages.* 
+  * A navigation bar has been created at the top of the website, which includes links to the other pages. The links have hover effect, so the user knows they are links when they 
+    move the cursor over the text. 
+
+* *As a user, I want to find information about the team, so I can find out more about them.*
+  * I made sure to include a section called **About Us** on the *Home page* introducing the team, and their experience, together with a picture that includes both team members.
+
+* *As a user, I want to find social media links that could lead me to other social media pages, where I can find more information and photos about ZestyTails.*
+  * Social media links have been created in the footer, for the most used social media platforms. Social media presence would be included in the future features. 
+
+* *As a user, I want to find recipes with ingredients and steps, so I can try some new cocktails at home.*
+  * For users that want to improve their bartending skills, there is a section on the *Recipes page* showing cocktail suggestions, with photos, ingredients and steps explaining
+    how to mix the ingredients properly.
+
+* *As a user, I want to see suggestions that could help me become a better bartender at home.*
+  * This has been achieved through the section **Basic Bar Tools To Have** on the *Tips & Tricks page*. These items are the most useful items to have as a bartender aficionado.
+
+* *As a user, I want to see information about what type of events ZestyTails supports.*
+  * On the *Events page* there is a section called **You Choose The Drinks & We Do The Rest** where it is explained the type of events that the team supports. Images have been used
+    to easily give the users hints about the events supported.
+
+* *As a user, I want to find information about how the team can be met in person.*
+  * On the *Events page* the section **Future Events** provides information about how the team can be met in person, if any user would feels more comfortable hiring them after having met
+    them in person and tested one of their cocktails. 
+
 ### Test scenarios
 
-### Bugs
+Below can be found a step by step process on how I tested each element of my website.
 
+1. **Links**
+
+   1. Top left logo:
+      1. I went to the navigation bar, at the top of all 6 pages
+      1. I clicked on the **ZestyTails** logo on the top left of the page
+      1. Link redirected to the homepage on all 6 pages.
+
+   1. Home: 
+
+      1. I went to the navigation bar, at the top of all 6 pages
+      1. I clicked on the **Home** on the top right of the page
+      1. Link redirected to the homepage on all 6 pages. 
+
+   1. Home page 'About' button: 
+
+      1. I went to the **Home** page
+      1. I clicked on the *About* button, underneath the slogan, which changed colour
+      1. Link redirected to the **About us** section on the **Home** page.
+
+   1. Home page 'Contact' button: 
+
+      1. I went to the **Home** page
+      1. I clicked on the *Contact* button, underneath the slogan, which changed colour
+      1. Link redirected to the **Contact** page.
+
+   1. Footer 'Back To Top' button: 
+
+      1. I went to the **Home** page, scrolled to the footer section
+      1. I clicked on the *Back To Top* button, which changed colour
+      1. Link redirected to the top of the page
+      1. Repeated this on all 6 pages.
+
+   1. Footer 'Menu' links:
+      1. I went to the **Home** page, scrolled to the footer section 
+      1. I clicked on all the links 'Home, Tips & Tricks, Recipes, Contact, Events' along the left side of the footer
+      1. Links redirected to corresponding pages  
+      1. Repeated this on all 6 pages.
+
+   1. Footer 'Social' links:
+      1. I went to the **Home** page, scrolled to the footer section
+      1. I clicked on the 3 icons located in the middle bottom of the footer 
+      1. Links redirected to respective pages, opening the pages in a new tab
+      1. Repeated this on all 6 pages.
+
+   1. **Tips and Tricks** page, 'Follow The Long Hall Pub on Twitter' button:
+      1. I went to the **Tips and Tricks** page, scrolled to the 'Suggestion Of The Month' section 
+      1. I clicked on the 'Follow The Long Hall Pub on Twitter' button, which changed colour
+      1. Link redirected to respective twitter page, opening the page in a new tab.
+
+   1. **Recipes** page, 'Where to Buy These Ingredients' section links:
+      1. I went to the **Recipes** page, scrolled to the 'Where to Buy These Ingredients' section 
+      1. I clicked on each 'Find out more on their website.' links, which became underlines and bold
+      1. Each link redirected to respective websites, opening the pages in new tabs.
+
+   1. Contact form:
+      1. I went to the **Contact** page, where I was able to find a contact form
+      1. I tried to add in details, while leaving a box empty
+      1. Clicked on the 'Submit' button
+      1. A dialogue box appeared indicating that the 'required' field needed to be filled in
+      1. Tried to submit the form with an invalid email address and the error ' Please include an '@' in the email address' appeared
+      1. Submitted the form with all inputs valid and the form has been successfully submitted
+      1. A new page appeared with a thank you message and links to the other pages. 
+
+
+2. **Responsiveness**:
+   
+   When I created the website, I used mostly the bootstrap grid system, making sure the website remains responsive to all devices, by adding
+   rows and columns to most of the websites features. 
+
+   Features that worked well with the use of bootstrap are: 
+
+    * Navigation bar - which changes layout depending on the device's screen size. On certain devices, the hamburger icon replaces the menu 
+    list, and reveals an expandable menu dropdown
+    * Footer - which changes layout depending on the device's screen size. On certain devices, the footer becomes a list, the social media
+    and the logo move to the bottom of the screen, leaving more visible the menu and contact section, followed by the logo, social media and copyright. 
+    * Jumbotron - which is the header's background image and slogan, having the About and Contact buttons on top of it. This changes layout 
+    depending on the size of the device, the buttons aligning one above the other on small devices.  
+    * Websites sections and cards - the rows and columns change location depending on the size of the screen, making it easier for the reader to 
+    read the text and have the image above or below the text. Images also change size depending on the screen size.
+    * Contact form - changes size depending on the screen size, making it easier for the user to fill out the form details.
+ 
 ---
 
 ## Deployment
@@ -336,12 +479,12 @@ For further reading and troubleshooting on cloning a repository
 
 ### Acknowledgements
 
-* I was inspirated for this project from the websites: [cocktailicious](https://www.cocktailicious.nl/), and also 
+* I was inspired for this project from the websites: [cocktailicious](https://www.cocktailicious.nl/), and also 
     [expertbarevents](http://expertbarevents.ie/).
-* The webites [w3schools](www.w3schools.com), [bootstrap](getbootstrap.com), [stackoverflow](stackoverflow.com), 
+* The websites [w3schools](www.w3schools.com), [bootstrap](getbootstrap.com), [stackoverflow](stackoverflow.com), 
     [css-tricks](https://css-tricks.com/) and [W3C](https://www.w3.org/) helped me every time i got stuck or wasn't sure 
     what was the best option for what I needed to do. 
-* Huge thank you to my mentor Precious for his support and guidance.    
+* Thank you to my mentor Precious for his support and guidance.    
 
 
 ### Disclaimer!
