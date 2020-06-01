@@ -75,7 +75,6 @@ h6 {
 
 .navbar .navbar-nav a {
     color: #d69c44;
-    font-weight: normal;
 }
 
 .navbar .navbar-nav a:hover {
@@ -328,7 +327,7 @@ p.copyright a:hover {
 }
 
 .shop-row a {
-    color: #ca8e33;
+    color: #b36e07;
 }
 
 .shop-row a:hover {
