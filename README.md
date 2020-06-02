@@ -128,7 +128,17 @@ As part of the development process I created 11 wireframes for my website (5 des
 ipad version) using the [Balsamiq tool](https://balsamiq.com/wireframes/desktop/#). These wireframes were created 
 at the start of the project, to help create a clear image of the website I want to build and also to be used as a 
 planner for the project management.
-* The contact form response page was created last, and it was a last minute decision, therefore the wireframe has not been built for it.
+
+Some of the details that show on the wireframes were changed during the process of building the website because of accessibility 
+and better visual. 
+* These changes are:
+  * On the page 'Tips & tricks' the 3rd section has been removed, because there was enough content for this page and similar
+    suggestions would be available on the 'Recipes' page. 
+  * Another visible change is the way the footer looks and is positioned. 'Back to top' button is positioned now above the footer,
+    on top of the the social media icons and logo. Logo and icones positioned in the middle of the footer, have on the left the menu 
+    and on the right the contact details. The footer looks more clear and well defined.
+  * The contact form response page was created last, and it was a last minute decision, therefore the wireframe has not been built for it.
+  
 * This is the [**PDF version of the wireframes**](https://drive.google.com/file/d/1bozIMADexjemmPHJ5aN11zCDk14R9F4X/view?usp=sharing).
 * This is the [**.png mobile version of the wireframes**](https://drive.google.com/drive/folders/1tNrL2QYCS2FOnRMCfZtdLwvxFXWTAXA0?usp=sharing).
 * This is the [**.png desktop version of the wireframes**](https://drive.google.com/drive/folders/1LqQe9yraHVccuDF2AwpZwSq93C0blkdU?usp=sharing).
@@ -417,7 +427,7 @@ Below can be found a step by step process on how I tested each element of my web
     stackoverflow, but haven't tried any of the options yet. 
   * **Youtube video 'iframe' not showing on 24" desktop [1920x1200]** - on the home page, the video is not visible on the 24" desktop testing. If we 
     click on the location of the video this starts playing, but remains hidden. We can only see the text on the left side of the section. 
-      * *To fix this I increase the width and height of the video from 250x250 to 480x270, [as suggested here](https://developers.google.com/youtube/player_parameters#Embedding_a_Player).*
+      * *To fix this I increase the width and height of the video from 250x250 to 480x270, [as suggested here](https://developers.google.com/youtube/player_parameters#Embedding_a_Player), which still doesn't seem to work.*
   * As mentioned above, when I validate my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, there are several warnings (34),
     but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work 
     properly on all modern browsers. The Auto-prefixer changed mainly my header's background image styling by removing the
