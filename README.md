@@ -29,6 +29,7 @@ meet the team, and testimonials.
 * [Testing](#Testing)
   * [Stories](#Stories)
   * [Test scenarios](#Test-scenarios)
+  * [Bugs](#Bugs)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
   * [Content](#Content)
@@ -228,34 +229,43 @@ planner for the project management.
 
 ## Testing
 
-* Tested the website on multiple browsers: Chrome, Firefox, Safari. It works good on Chrome and Firefox, but on Safari the background image is too zoomed in.
-* Tested the website on different screens sizes by using [Responsivedesign](http://ami.responsivedesign.is/#) and [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php).
-    The website is responsive on all major devices. The layout changes as predicted, the menu transforms into a burger menu on small devices and pictures resize
-    according to the device size. There is a good visual over the text and buttons and there is enough space between text and sides of the screen. Loading time 
-    is fast, the website is easy to navigate. The background image zooms in on smaller devices, and renders the slogan clear and visible.     
-* I entered my html code, each page at a time, on the [W3C Markup Validation](https://validator.w3.org/) page, through **Validate by direct input**, clicked
+   1. Tested the website on multiple browsers: Chrome, Firefox, Safari, Edge. It works good on Chrome, Firefox and Edge, but on IOS Safari 
+    the background image is too zoomed in.
+
+   1. Tested the website on different screens sizes by using [Responsivedesign](http://ami.responsivedesign.is/#) and 
+    [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php) and I have found the following:
+      1. The website is responsive on all devices. 
+      1. The layout changes as predicted, the menu transforms into a burger menu on small devices and pictures resize according to the device size. 
+      1. There is a good visual over the text and buttons and there is enough space between text and sides of the screen. 
+      1. Loading time is fast, the website is easy to navigate. 
+      1. The background image zooms in ok on smaller devices, and renders the slogan and buttons clear and visible.     
+
+   1. I entered my html code, each page at a time, on the [W3C Markup Validation](https://validator.w3.org/) page, through **Validate by direct input**, clicked
     on **Check** and I have found the following:
-  * **Home** - shown that iframe needs adjustment regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
+      1. **Home** - shown that iframe needs adjustment regarding frameborder, overflow and text of the youtube video, adjusted suggested changes by removing
     the frameborder, the overflow property and the text.
-  * **Home** - *the 'back to top' button cannot appear as a descendant of an **a** element* - I therefore removed the **button** and styled the bootstrap 
+      1. **Home** - *the 'back to top' button cannot appear as a descendant of an **a** element* - I therefore removed the **button** and styled the bootstrap 
     **btn** within the **a** element. Adjusted this on all pages.
-  * **Recipes** - *Element **lh** not allowed as child of element **ul** in this context* - I used **lh** as I have seen it
+      1. **Recipes** - *Element **lh** not allowed as child of element **ul** in this context* - I used **lh** as I have seen it
     [on the w3.org website, here](https://www.w3.org/MarkUp/html3/bulletlists.html). Adjusted this, by modifying the title, to become an **h6** with a class
-    of "subtitle", inside a **div**.
-  * **Contact** - I had to modify the contact form bootstrap code in order to adhere to the validator's requests. Input type was not accepted.    
-* I validated my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, by clicking on **By direct input** and adding the full css code
+    of 'subtitle', inside a **div**.
+      1. **Contact** - I had to modify the contact form bootstrap code in order to adhere to the validator's requests. Input type was not accepted.  
+
+   1. I validated my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, by clicking on **By direct input** and adding the full css code
     from my *style.css*, clicked on **Check** and I have found the following:
-  * Had to adjust the **navbar-toggler** border unit.
-  * There are several warnings (34), but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes
+      1. Had to adjust the 'navbar-toggler' border unit.
+      1. There are several warnings (34), but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes
     it needs, in order to work properly on all modern browsers.
-* I proceeded with the [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) audit by adding the extension
+
+   1. I proceeded with the [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=en) audit by adding the extension
     to my Chrome browser, clicking on the extension icon, and next clicking on **Generate report** button within the browser extension, once I was
     [on the homepage of my website](https://github.com/anabear/ZestyTails). Based on the audit, I was able to improve the following:
-  * Reduced photos size when available. Reduced about us image and the logo transparent image sizes, but did not reduce the hero image as I want it to have a 
+      1. Reduced photos size when available. Reduced about us image and the logo transparent image sizes, but did not reduce the hero image as I want it to have a 
     clear and neat resolution on all devices.
-  * Added a title to the **iframe** video for accessibility.
-* Tested the website on [mobiReady](https://ready.mobi/) by adding the website's URL in the main box on the website's main page and clicking on **Go**. Some errors 
-    shown on [mobiReady](https://ready.mobi/) while testing were in relation to frames, css measurements and image resizing which could not be corrected as they 
+      1. Added a title to the 'iframe' video for accessibility.
+
+   1. Tested the website on [mobiReady](https://ready.mobi/) by adding the website's URL in the main box on the website's main page and clicking on **Go**. 
+      1. Some errors shown on [mobiReady](https://ready.mobi/) while testing were in relation to frames, css measurements and image resizing which could not be corrected as they 
     are required for the website functionality. [Screenshot of the test scan can be seen here](https://screenshot.click/31_53-vozy0-bdc45.png).
 
 ### Stories
@@ -391,15 +401,28 @@ Below can be found a step by step process on how I tested each element of my web
 
    Features that worked well with the use of bootstrap are: 
 
-    * Navigation bar - which changes layout depending on the device's screen size. On certain devices, the hamburger icon replaces the menu 
+    * **Navigation bar** - which changes layout depending on the device's screen size. On certain devices, the hamburger icon replaces the menu 
     list, and reveals an expandable menu dropdown
-    * Footer - which changes layout depending on the device's screen size. On certain devices, the footer becomes a list, the social media
+    * **Footer** - which changes layout depending on the device's screen size. On certain devices, the footer becomes a list, the social media
     and the logo move to the bottom of the screen, leaving more visible the menu and contact section, followed by the logo, social media and copyright. 
-    * Jumbotron - which is the header's background image and slogan, having the About and Contact buttons on top of it. This changes layout 
+    * **Jumbotron** - which is the header's background image and slogan, having the About and Contact buttons on top of it. This changes layout 
     depending on the size of the device, the buttons aligning one above the other on small devices.  
-    * Websites sections and cards - the rows and columns change location depending on the size of the screen, making it easier for the reader to 
+    * **Websites sections and cards** - the rows and columns change location depending on the size of the screen, making it easier for the reader to 
     read the text and have the image above or below the text. Images also change size depending on the screen size.
-    * Contact form - changes size depending on the screen size, making it easier for the user to fill out the form details.
+    * **Contact form** - changes size depending on the screen size, making it easier for the user to fill out the form details.
+
+### Bugs
+  * **On IOS Safari the background image is too zoomed in** - it seems that Mobile Safari 
+    [does not support](https://www.quirksmode.org/css/backgroundattachment.html) 'background-attachment: fixed'. I have seen plenty of workarounds on
+    stackoverflow, but haven't tried any of the options yet. 
+  * **Youtube video 'iframe' not showing on 24" desktop [1920x1200]** - on the home page, the video is not visible on the 24" desktop testing. If we 
+    click on the location of the video this starts playing, but remains hidden. We can only see the text on the left side of the section. 
+      * *To fix this I increase the width and height of the video from 250x250 to 480x270, [as suggested here](https://developers.google.com/youtube/player_parameters#Embedding_a_Player).*
+  * As mentioned above, when I validate my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, there are several warnings (34),
+    but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work 
+    properly on all modern browsers. The Auto-prefixer changed mainly my header's background image styling by removing the
+    ```-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;``` and adding other display properties. Not sure if this caused
+    the error on IOS Safari afterwards. 
  
 ---
 
