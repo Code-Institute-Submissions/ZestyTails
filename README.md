@@ -422,17 +422,19 @@ Below can be found a step by step process on how I tested each element of my web
     * **Contact form** - changes size depending on the screen size, making it easier for the user to fill out the form details.
 
 ### Bugs
+
+Below are a list of issues encountered that do not have a resolution:
+
   * **On Iphone8 - IOS 13.3 & Iphone XR - Safari/Chrome/Edge the background image is extra zoomed in** - it seems that IOS 
-    [does not support](https://www.quirksmode.org/css/backgroundattachment.html) 'background-attachment: fixed'. I have seen plenty of workarounds on
-    stackoverflow, but nothing seems like an easy fix. 
+    [does not support](https://www.quirksmode.org/css/backgroundattachment.html) 'background-attachment: fixed'. I tried to change the background-attachment
+    from 'fixed' to 'scroll', which seems to work, as per the above article, but this is not the visual preferred for this website. This is a known browser issue.
   * **Youtube video 'iframe' not showing on 24" desktop [1920x1200]** - on the home page, the video is not visible on the 24" desktop testing. If we 
-    click on the location of the video this starts playing, but remains hidden. We can only see the text on the left side of the section. I have not found 
-    a fix for this.
+    click on the location of the video this starts playing, but remains hidden. We can only see the text on the left side of the section. 
   * As mentioned above, when I validate my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, there are several warnings (34),
     but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work 
     properly on all modern browsers. The Auto-prefixer changed mainly my header's background image styling by removing the
     ```-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;``` and adding other display properties. Not sure if this caused
-    the error on IOS Safari afterwards. 
+    the error on IOS afterwards. 
  
 ---
 
@@ -500,6 +502,13 @@ For further reading and troubleshooting on cloning a repository
 * The section **You Choose The Drinks & We Do The Rest** text and format on the **Events** page are 
     [inspired from this website](http://expertbarevents.ie/portfolio/).
 * **Testimonials** text on the **Events** page is [inspired from this page](http://expertbarevents.ie/testimonials/).
+* For certain sections of my website, I copied some parts of the code from my previous code institute projects:
+  * Footer - inspired from my code institute projects[Rosie - resume & Love-Running]
+  * Jumbotron & Buttons - inspired from my code institute projects[Whiskey Drop]
+  * Contact Us Form - created with the help my previous code institute project [Love-Running]
+  * NavBar - inspired from my code institute projects[Whiskey Drop & Love Running]
+  * Future Events - table created with the help of my previous project [Whiskey Drop]
+  * Expert Bar Events - inspired from my code institute projects.
 
 
 ### Media
