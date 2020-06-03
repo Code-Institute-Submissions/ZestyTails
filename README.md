@@ -239,8 +239,8 @@ and better visual.
 
 ## Testing
 
-   1. Tested the website on multiple browsers: Chrome, Firefox, Safari, Edge. It works good on Chrome, Firefox and Edge, but on IOS Safari 
-    the background image is too zoomed in.
+   1. Tested the website on multiple browsers: Chrome, Firefox, Safari, Edge. It works good on Chrome, Firefox and Edge, also looking good
+    on Android - all browsers, but on Iphone8 - IOS 13.3 the background image is extra zoomed in on all browsers.
 
    1. Tested the website on different screens sizes by using [Responsivedesign](http://ami.responsivedesign.is/#) and 
     [Responsivedesignchecker](https://responsivedesignchecker.com/checker.php) and I have found the following:
@@ -422,12 +422,12 @@ Below can be found a step by step process on how I tested each element of my web
     * **Contact form** - changes size depending on the screen size, making it easier for the user to fill out the form details.
 
 ### Bugs
-  * **On IOS Safari the background image is too zoomed in** - it seems that Mobile Safari 
+  * **On Iphone8 - IOS 13.3 & Iphone XR - Safari/Chrome/Edge the background image is extra zoomed in** - it seems that IOS 
     [does not support](https://www.quirksmode.org/css/backgroundattachment.html) 'background-attachment: fixed'. I have seen plenty of workarounds on
-    stackoverflow, but haven't tried any of the options yet. 
+    stackoverflow, but nothing seems like an easy fix. 
   * **Youtube video 'iframe' not showing on 24" desktop [1920x1200]** - on the home page, the video is not visible on the 24" desktop testing. If we 
-    click on the location of the video this starts playing, but remains hidden. We can only see the text on the left side of the section. 
-      * *To fix this I increase the width and height of the video from 250x250 to 480x270, [as suggested here](https://developers.google.com/youtube/player_parameters#Embedding_a_Player), which still doesn't seem to work.*
+    click on the location of the video this starts playing, but remains hidden. We can only see the text on the left side of the section. I have not found 
+    a fix for this.
   * As mentioned above, when I validate my css code on the [W3C CSS validation](https://jigsaw.w3.org/css-validator/) page, there are several warnings (34),
     but these are all the changes made by [Auto-prefixer](https://autoprefixer.github.io/) to make sure the css has all prefixes it needs, in order to work 
     properly on all modern browsers. The Auto-prefixer changed mainly my header's background image styling by removing the
