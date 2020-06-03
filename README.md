@@ -517,7 +517,7 @@ For further reading and troubleshooting on cloning a repository
 * The websites [w3schools](www.w3schools.com), [bootstrap](getbootstrap.com), [stackoverflow](stackoverflow.com), 
     [css-tricks](https://css-tricks.com/) and [W3C](https://www.w3.org/) helped me every time i got stuck or wasn't sure 
     what was the best option for what I needed to do. 
-* Thank you to my mentor Precious for his support and guidance.    
+* Thank you to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his support and guidance.    
 
 
 ### Disclaimer!

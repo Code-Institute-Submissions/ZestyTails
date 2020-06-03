@@ -101,7 +101,7 @@ h6 {
 .hero-container {
     height: 80vh;
 
-    background: url("../images/hero_image3.jpg") no-repeat bottom left fixed;
+    background: url("../images/hero_image.jpg") no-repeat bottom left fixed;
     background-size: cover;
 
     display: -webkit-box;
@@ -239,7 +239,7 @@ p.copyright a:hover {
 .page-header {
     height: 60vh;
 
-    background: url("../images/hero_image3.jpg") no-repeat bottom left fixed;
+    background: url("../images/hero_image.jpg") no-repeat bottom left fixed;
     background-size: cover;
 
     display: -webkit-box;
@@ -367,7 +367,7 @@ p.copyright a:hover {
     height: 100vh;
     padding: 80px 0 15px 0;
 
-    background: url("../images/hero_image3.jpg") no-repeat bottom left fixed;
+    background: url("../images/hero_image.jpg") no-repeat bottom left fixed;
     background-size: cover;
 
     display: -webkit-box;
