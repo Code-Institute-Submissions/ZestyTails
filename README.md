@@ -65,23 +65,20 @@ website will help build the trust in the ZestyTails company.
 ### Website Goals
 
 * Share information about cocktail making.
-* Provide information about what the events team does and at what price.
+* Provide information about what the events team does.
 * Provide information about who is in the team and feedback from events they have hosted.
 * Provide easy access to all the information, and links that are easily found.
 * Provide the same experience accessing the website from a browser or mobile.
 * Provide information about great bars and liquor stores to try out.
-* Provide a contact form so individuals get in contact with the team easily, and receive a response in a timely 
-    manner.
-* Provide information about where the team can be met and how people can try out their cocktails before hiring 
-    them for their events.
+* Provide a contact form so individuals get in contact with the team easily, and receive a response in a timely manner.
+* Provide information about where the team can be met and how people can try out their cocktails, before hiring them for their events.
 * Provide clearer feedback to users by altering the button/link colours when clicked.
 
 ### User Stories
 
 * As a user, I want to see a website that has a fast loading time, so that I can browse the website fast and easy, 
     without losing interest because of the waiting time.
-* As a user, I want to see a website with warm and blending colours, with a functional and easy to use, intuitive 
-    layout. 
+* As a user, I want to see a website with warm and blending colours, with a functional and easy to use, intuitive layout. 
 * As a user, I want the website to have a consistent experience.
 * As a user, I want to feel that I can come back for new content and not be presented with the same old information.
 * As a user, I want to be able to contact the team easily, if I have more questions.
@@ -130,7 +127,7 @@ at the start of the project, to help create a clear image of the website I want 
 planner for the project management.
 
 Some of the details that show on the wireframes were changed during the process of building the website because of accessibility 
-and better visual. 
+and better visual reasons. 
 * These changes are:
   * On the page 'Tips & tricks' the 3rd section has been removed, because there was enough content for this page and similar
     suggestions would be available on the 'Recipes' page. 
@@ -457,11 +454,10 @@ by following these steps:
 3. Scroll down to the **GitHub Pages** section.
 4. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**.
 5. On selecting **Master Branch** the page is automatically refreshed, the website is now deployed.
-6. A green box should appear with the following message 
-`Your site is ready to be published at https://anabear.github.io/ZestyTails/.`
+6. A green box should appear with the following message `Your site is ready to be published at https://anabear.github.io/ZestyTails/.`
 
 For more information on how to deploy a website on GitHub, 
-    [please visit this website](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+[please visit this website](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 ### How to to clone and run this project locally
 
@@ -472,12 +468,11 @@ To clone this project from GitHub:
 3. In the **Clone with HTTPs** section, copy the clone URL for the repository.
 4. Open Terminal.
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-   `git clone https://github.com/anabear/ZestyTails.git`
+6. Type `git clone`, and then paste the URL you copied in Step 3. `git clone https://github.com/anabear/ZestyTails.git`
 7. Press **Enter**. Your local clone will be created.
 
-For further reading and troubleshooting on cloning a repository 
-    [from GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+For further reading and troubleshooting on cloning a repository from GitHub
+[please visit this website](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ---
 
