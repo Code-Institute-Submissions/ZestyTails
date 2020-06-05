@@ -181,7 +181,8 @@ and better visual.
 * **Keyword search** - to allow users to find recipes based on the ingredients.
 * **Breadcrumbs** - once the website has pages more than one layer deep, breadcrumbs will make the website easier to navigate 
     for the users.
-* **Social media presence** - that could provide more information about the team, and make the website more credible.   
+* **Social media presence** - that could provide more information about the team, and make the website more credible.
+* Make the table on the **Events** page, 'Future Events' section, responsive for mobile view.  
 
 ------
 
@@ -293,48 +294,54 @@ and better visual.
     Added icons to titles for the user to easily understand what the section might be associated to.   
 
 * *As a user, I want to feel that I can come back for new content and not be presented with the same old information.*
-  * This can be achieved with the constant update of the **Suggestion of the month** section on the *Tips & Tricks page*. The *Recipes page* could also be updated regularly,
-    by suggesting different cocktails and shops. The *Events page* could have new content from once in a while by updating the **Future Events** section. 
+  * This can be achieved with the constant update of the [**Suggestion of the month**](https://screenshot.click/05_41-r658y-j0li3.png) section on the *Tips & Tricks page*. 
+    The *Recipes page* could also be updated regularly, by suggesting different cocktails and shops. The *Events page* could have new content from once in a while by 
+    updating the **Future Events** section. 
 
 * *As a user, I want to be able to contact the team easily, if I have more questions.*
-  * I made sure to add the contact details in the footer of the website. Social media links can also be found in the footer. Contact button is available on the home page header,
-    to make it easily accessible for users who are looking to contact the team directly. The *Contact page* can also be found in both the header and footer.
+  * I made sure to [add contact details](https://screenshot.click/05_42-wcfwg-qskkn.png) in the footer of the website. Social media links can also be found in the footer. 
+    [Contact button](https://screenshot.click/05_44-ze4ux-s8h5b.png) is available on the home page header, to make it easily accessible for users who are looking to contact 
+    the team directly. The *Contact page* can also be found in both the header and footer.
 
 * *As a user, I want to see a confirmation that my inquiry has been sent without any issues.*
   * On the *Contact page* I applied the data validation, to make sure users don't omit to fill out their details. Once the form has been filled and submitted, there will be 
-    another page showing up, thanking the user for filling out the form. 
+    [another page showing up](https://screenshot.click/05_45-l2lae-1tu6m.png), thanking the user for filling out the form. 
 
 * *As a user, I want the website to look credible and trustworthy.*
-  * I made sure to include a **Testimonials** section on the *Events page* to increase the users trust. A favicon has been added to all pages *head*. There have been included
-    high quality images, made sure each section has either a picture, video or lists suggestions. Links to social media and contact are easy to find.
+  * I made sure to include a [**Testimonials**](https://screenshot.click/05_46-2efa0-ugjqc.png) section on the *Events page* to increase the users trust. A favicon has been 
+    added to all pages *head*. There have been included high quality images, made sure each section has either a picture, video or lists suggestions. Links to social media 
+    and contact are easy to find.
 
 * *As a user, I want to see responsive buttons, so I know that an action was taken when I clicked a button.* 
   * I made sure to add shadow and hover colour change, to make sure the user will be able to see a change when an action was taken, thus being either a button or link.
 
 * *As a user, I want to see a navigation bar that can lead to other pages.* 
-  * A navigation bar has been created at the top of the website, which includes links to the other pages. The links have hover effect, so the user knows they are links when they 
-    move the cursor over the text. 
+  * A navigation bar has been created [at the top of the website](https://screenshot.click/05_47-gu99k-1glvo.png), which includes links to the other pages. The links have 
+    hover effect, so the user knows they are links when they move the cursor over the text. 
 
 * *As a user, I want to find information about the team, so I can find out more about them.*
-  * I made sure to include a section called **About Us** on the *Home page* introducing the team, and their experience, together with a picture that includes both team members.
+  * I made sure to include a section called [**About Us**](https://screenshot.click/05_47-j0pj3-aeicf.png) on the *Home page* introducing the team, and their experience, 
+    together with a picture that includes both team members.
 
 * *As a user, I want to find social media links that could lead me to other social media pages, where I can find more information and photos about ZestyTails.*
-  * Social media links have been created in the footer, for the most used social media platforms. Social media presence would be included in the future features. 
+  * Social media links have been [created in the footer](https://screenshot.click/05_48-a17ya-kcpal.png), for the most used social media platforms. Social media presence 
+    would be included in the future features. 
 
 * *As a user, I want to find recipes with ingredients and steps, so I can try some new cocktails at home.*
   * For users that want to improve their bartending skills, there is a section on the *Recipes page* showing cocktail suggestions, with photos, ingredients and steps explaining
     how to mix the ingredients properly.
 
 * *As a user, I want to see suggestions that could help me become a better bartender at home.*
-  * This has been achieved through the section **Basic Bar Tools To Have** on the *Tips & Tricks page*. These items are the most useful items to have as a bartender aficionado.
+  * This has been achieved through the section [**Basic Bar Tools To Have**](https://screenshot.click/05_49-oqpwa-v1crg.png) on the *Tips & Tricks page*. These items are the most 
+    useful items to have as a bartender aficionado.
 
 * *As a user, I want to see information about what type of events ZestyTails supports.*
-  * On the *Events page* there is a section called **You Choose The Drinks & We Do The Rest** where it is explained the type of events that the team supports. Images have been used
-    to easily give the users hints about the events supported.
+  * On the *Events page* there is a section called [**You Choose The Drinks & We Do The Rest**](https://screenshot.click/05_50-04w67-9u44p.png) where it is explained the type of 
+    events that the team supports. Images have been used to easily give the users hints about the events supported.
 
 * *As a user, I want to find information about how the team can be met in person.*
-  * On the *Events page* the section **Future Events** provides information about how the team can be met in person, if any user would feels more comfortable hiring them after having met
-    them in person and tested one of their cocktails. 
+  * On the *Events page* the section [**Future Events**](https://screenshot.click/05_50-fip71-78qh0.png) provides information about how the team can be met in person, if any user 
+    would feels more comfortable hiring them after having met them in person and tested one of their cocktails. 
 
 ### Test scenarios
 
@@ -440,8 +447,10 @@ Below are a list of issues encountered that do not have a resolution:
 
 ## Deployment
 
-To deploy this page to GitHub Pages from [its GitHub repository](https://anabear.github.io/ZestyTails/), 
-    the following steps were taken:
+### How to deploy this project to github pages
+
+Deploy this page to GitHub Pages from [its GitHub repository](https://anabear.github.io/ZestyTails/), 
+by following these steps:
 
 1. On GitHub, navigate to the site's repository.
 2. Under the repository name, click on **Settings**.
@@ -454,7 +463,7 @@ To deploy this page to GitHub Pages from [its GitHub repository](https://anabear
 For more information on how to deploy a website on GitHub, 
     [please visit this website](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-### How to run this project locally
+### How to to clone and run this project locally
 
 To clone this project from GitHub:
 
